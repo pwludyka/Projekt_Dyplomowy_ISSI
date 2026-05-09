@@ -1,0 +1,12 @@
+[project]
+name = "pd-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <3.13 "
+dependencies = [
+    "milvus-lite>=2.5.1",
+    "ollama>=0.6.2",
+    "pymilvus[milvus-lite]>=2.6.12",
+    "setuptools>=82.0.1",
+]
