@@ -12,6 +12,7 @@ __pycache__/
 .env.*
 
 # Build
+node_modules/
 dist/
 build/
 *.egg-info/
@@ -21,3 +22,16 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Docker / databases / generated runtime data
+volumes/
+data/
+tmp/
+
+# Milvus
+milvus_db/
+etcd/
+minio/
