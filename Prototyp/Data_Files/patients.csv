@@ -1,0 +1,1001 @@
+patient_id,arm,age,sex,race,ethnicity,weight_kg,height_cm,bmi,systolic_bp_mmhg,diastolic_bp_mmhg,heart_rate_bpm,lvef_percent,disease_duration_years
+SUBJ-2824,Drug X,63.0,Female,Asian,Not Hispanic or Latino,106.2,161.6,23.5,117.0,81.4,69.9,38.6,7.4
+SUBJ-1409,Drug X,56.6,Male,White,Not Hispanic or Latino,77.2,190.9,18.7,121.5,82.7,77.9,24.3,11.8
+SUBJ-5506,Drug X,64.5,Male,Black or African American,Not Hispanic or Latino,100.3,153.9,30.2,108.6,82.7,71.9,37.5,0.9
+SUBJ-5012,Drug X,73.2,Female,White,Not Hispanic or Latino,104.8,171.8,20.7,126.0,80.5,75.7,40.8,0.5
+SUBJ-4657,Drug X,55.7,Male,White,Hispanic or Latino,97.0,190.2,29.0,152.6,93.9,93.8,38.9,5.1
+SUBJ-3286,Drug X,55.7,Male,Black or African American,Not Hispanic or Latino,75.5,170.1,27.2,144.3,81.2,67.9,34.0,5.6
+SUBJ-2679,Drug X,73.8,Male,White,Hispanic or Latino,88.1,168.1,31.9,152.6,70.8,75.3,30.1,6.3
+SUBJ-9935,Drug X,65.7,Male,Black or African American,Hispanic or Latino,81.6,166.4,27.0,144.4,78.1,65.9,27.4,3.9
+SUBJ-2424,Drug X,53.3,Male,Black or African American,Not Hispanic or Latino,68.4,168.2,26.9,115.1,83.8,61.8,43.8,4.8
+SUBJ-7912,Drug X,63.4,Male,White,Hispanic or Latino,86.9,183.7,32.2,129.0,94.3,65.0,26.4,6.8
+SUBJ-1520,Drug X,53.4,Male,White,Not Hispanic or Latino,64.3,147.9,30.2,121.0,88.0,66.3,23.7,9.1
+SUBJ-1488,Drug X,53.3,Male,White,Not Hispanic or Latino,99.8,185.3,30.1,159.0,73.5,76.3,37.3,0.5
+SUBJ-2535,Drug X,60.4,Male,White,Not Hispanic or Latino,75.0,155.8,30.8,113.5,106.9,100.2,25.6,4.2
+SUBJ-4582,Drug X,38.9,Female,Other,Hispanic or Latino,85.0,167.3,20.8,151.1,84.6,63.4,24.4,6.2
+SUBJ-4811,Drug X,40.8,Male,White,Hispanic or Latino,86.2,165.7,32.3,151.1,94.8,67.0,20.5,2.3
+SUBJ-9279,Drug X,52.4,Male,White,Not Hispanic or Latino,78.1,175.9,31.6,167.9,80.5,71.2,28.1,11.6
+SUBJ-1434,Drug X,47.9,Male,White,Not Hispanic or Latino,90.8,154.0,23.4,127.6,87.3,76.7,31.3,3.3
+SUBJ-4257,Drug X,61.1,Female,White,Not Hispanic or Latino,74.9,174.6,27.3,147.8,90.4,75.2,33.9,5.4
+SUBJ-9928,Drug X,48.9,Male,Black or African American,Not Hispanic or Latino,95.1,190.2,28.3,176.1,94.2,87.4,39.6,7.4
+SUBJ-7873,Drug X,43.9,Male,White,Not Hispanic or Latino,61.8,156.4,27.8,123.9,92.6,45.0,36.2,3.4
+SUBJ-4611,Drug X,72.7,Female,Black or African American,Not Hispanic or Latino,83.9,171.9,30.2,107.4,90.7,45.0,30.5,0.5
+SUBJ-8359,Drug X,55.7,Female,White,Not Hispanic or Latino,111.1,163.4,35.7,101.2,78.8,66.0,30.4,4.0
+SUBJ-5557,Drug X,58.7,Female,Other,Not Hispanic or Latino,67.0,174.3,33.9,147.8,76.3,85.2,36.1,9.1
+SUBJ-1106,Drug X,43.8,Male,White,Hispanic or Latino,71.8,170.2,21.9,101.1,85.3,53.2,42.2,4.3
+SUBJ-3615,Drug X,52.6,Male,White,Not Hispanic or Latino,89.7,163.6,31.6,128.3,91.3,45.0,33.0,2.5
+SUBJ-7924,Drug X,59.1,Female,Asian,Not Hispanic or Latino,84.7,174.9,35.1,142.9,79.8,78.9,28.2,8.7
+SUBJ-6574,Drug X,46.5,Female,White,Not Hispanic or Latino,87.3,188.0,30.4,138.3,92.7,74.9,24.1,4.3
+SUBJ-5552,Drug X,61.8,Male,Asian,Hispanic or Latino,89.3,168.1,34.0,142.7,96.5,58.9,20.4,3.7
+SUBJ-3547,Drug X,52.0,Male,White,Hispanic or Latino,91.5,177.2,38.6,139.0,72.8,60.2,37.3,6.0
+SUBJ-4527,Drug X,55.1,Male,White,Not Hispanic or Latino,98.6,157.1,33.6,158.0,73.6,60.4,36.6,8.2
+SUBJ-6514,Drug X,52.0,Female,White,Not Hispanic or Latino,88.1,160.4,29.7,117.9,80.6,73.3,36.6,13.8
+SUBJ-2674,Drug X,76.5,Male,Black or African American,Not Hispanic or Latino,78.4,174.7,33.7,122.8,85.1,64.5,31.0,8.4
+SUBJ-2519,Drug X,57.9,Male,White,Not Hispanic or Latino,92.1,184.8,29.2,121.1,76.8,77.9,43.3,9.6
+SUBJ-7224,Drug X,47.4,Male,White,Not Hispanic or Latino,110.5,173.6,28.6,149.9,95.5,45.0,28.1,3.7
+SUBJ-2584,Drug X,66.2,Male,White,Not Hispanic or Latino,80.0,166.9,26.7,151.2,86.2,61.7,39.6,1.9
+SUBJ-6881,Drug X,45.8,Male,White,Not Hispanic or Latino,67.4,170.0,36.3,143.1,82.4,58.5,31.7,5.7
+SUBJ-6635,Drug X,60.1,Male,White,Not Hispanic or Latino,98.6,157.5,24.4,156.3,67.6,68.9,27.1,5.9
+SUBJ-5333,Drug X,38.4,Male,Asian,Not Hispanic or Latino,80.2,176.0,36.2,113.8,68.8,65.5,36.7,1.7
+SUBJ-1711,Drug X,44.7,Male,Other,Not Hispanic or Latino,49.4,178.8,31.0,165.0,84.8,81.6,35.3,4.9
+SUBJ-8527,Drug X,60.0,Male,Other,Not Hispanic or Latino,94.7,165.5,21.5,162.4,60.7,49.7,34.9,6.9
+SUBJ-9785,Drug X,65.4,Male,Black or African American,Hispanic or Latino,74.0,165.3,30.3,148.2,92.1,72.5,32.7,6.8
+SUBJ-3045,Drug X,59.7,Male,White,Not Hispanic or Latino,80.6,172.7,18.0,167.1,80.4,78.7,31.7,7.3
+SUBJ-7201,Drug X,56.8,Male,Black or African American,Hispanic or Latino,87.0,165.6,31.6,105.2,114.4,94.3,51.1,6.5
+SUBJ-2291,Drug X,55.0,Male,White,Not Hispanic or Latino,84.9,169.3,32.9,125.6,105.1,66.2,41.5,3.7
+SUBJ-5803,Drug X,43.2,Male,White,Not Hispanic or Latino,92.6,191.0,25.5,121.8,80.2,75.9,37.8,3.7
+SUBJ-6925,Drug X,50.8,Male,White,Not Hispanic or Latino,75.5,167.5,29.1,148.0,80.9,50.4,32.9,1.3
+SUBJ-4150,Drug X,53.4,Male,White,Not Hispanic or Latino,89.7,166.4,38.3,116.1,92.0,45.0,40.1,11.7
+SUBJ-2139,Drug X,68.6,Female,Black or African American,Not Hispanic or Latino,78.1,163.5,26.0,148.6,99.0,82.1,36.1,5.5
+SUBJ-1750,Drug X,61.4,Male,White,Not Hispanic or Latino,93.1,177.4,23.2,159.7,65.6,71.9,32.2,4.7
+SUBJ-4733,Drug X,40.4,Female,White,Not Hispanic or Latino,91.2,168.2,35.9,147.5,64.1,86.1,29.6,2.2
+SUBJ-5741,Drug X,61.2,Male,White,Not Hispanic or Latino,68.0,163.5,38.3,140.1,75.8,55.5,31.4,15.8
+SUBJ-2307,Drug X,54.1,Female,Other,Not Hispanic or Latino,98.3,183.2,28.5,117.2,87.8,78.2,10.0,1.7
+SUBJ-4814,Drug X,51.2,Female,White,Not Hispanic or Latino,74.0,184.2,33.6,119.8,87.0,94.4,33.7,4.0
+SUBJ-2654,Drug X,64.1,Male,White,Not Hispanic or Latino,94.1,164.0,35.2,157.5,92.7,77.0,28.1,7.0
+SUBJ-7227,Drug X,68.3,Male,White,Not Hispanic or Latino,87.5,151.3,24.8,149.0,70.0,75.3,44.7,7.6
+SUBJ-5554,Drug X,67.3,Male,Black or African American,Not Hispanic or Latino,109.6,180.1,26.1,134.3,58.8,72.1,32.2,8.9
+SUBJ-8428,Drug X,49.6,Male,White,Not Hispanic or Latino,78.6,163.2,34.7,127.5,90.6,53.1,22.5,11.8
+SUBJ-6977,Drug X,54.9,Female,White,Hispanic or Latino,76.8,177.9,36.9,98.5,73.7,88.3,31.6,7.3
+SUBJ-3664,Drug X,61.3,Female,White,Not Hispanic or Latino,81.7,150.3,31.3,115.7,61.8,64.7,23.6,1.8
+SUBJ-7065,Drug X,67.8,Female,White,Not Hispanic or Latino,77.5,178.9,24.1,169.4,83.5,78.1,35.8,4.6
+SUBJ-6820,Drug X,53.2,Male,White,Hispanic or Latino,94.0,157.9,38.4,112.0,89.9,53.2,34.3,6.6
+SUBJ-4432,Drug X,56.1,Female,White,Not Hispanic or Latino,57.8,177.3,25.8,138.4,80.8,57.8,39.7,12.7
+SUBJ-5374,Drug X,46.9,Female,Other,Not Hispanic or Latino,66.2,170.1,26.8,153.1,77.4,89.2,25.7,0.6
+SUBJ-2169,Drug X,46.0,Male,White,Not Hispanic or Latino,66.0,160.5,30.2,112.4,80.4,67.8,32.3,9.7
+SUBJ-3803,Drug X,66.1,Male,White,Not Hispanic or Latino,96.3,165.9,36.3,138.3,78.3,89.4,21.1,6.1
+SUBJ-9751,Drug X,71.6,Female,Asian,Not Hispanic or Latino,107.7,176.9,32.8,151.9,68.5,71.1,37.6,8.4
+SUBJ-5010,Drug X,57.3,Male,White,Not Hispanic or Latino,80.4,171.1,30.6,135.2,74.9,49.9,36.2,5.1
+SUBJ-3677,Drug X,68.0,Female,White,Not Hispanic or Latino,79.5,175.8,30.8,186.6,87.2,82.7,36.0,2.6
+SUBJ-8573,Drug X,61.6,Male,White,Not Hispanic or Latino,83.1,189.8,28.7,105.0,85.2,64.9,32.0,8.1
+SUBJ-7216,Drug X,51.5,Female,White,Hispanic or Latino,99.4,154.4,31.3,154.1,83.7,80.4,35.3,7.8
+SUBJ-5422,Drug X,61.6,Male,Other,Not Hispanic or Latino,68.1,186.2,18.0,131.9,72.0,72.3,44.8,8.9
+SUBJ-4598,Drug X,73.4,Male,White,Not Hispanic or Latino,85.6,171.0,27.0,148.9,80.2,53.5,29.7,5.5
+SUBJ-6313,Drug X,57.6,Male,Asian,Not Hispanic or Latino,96.6,161.0,29.7,142.9,60.2,74.0,33.1,3.4
+SUBJ-1916,Drug X,73.6,Female,White,Not Hispanic or Latino,89.5,156.7,22.7,121.8,83.8,98.4,23.3,0.5
+SUBJ-4752,Drug X,31.8,Female,White,Not Hispanic or Latino,84.8,168.1,30.4,139.1,96.3,77.9,25.1,8.4
+SUBJ-1525,Drug X,66.2,Male,White,Not Hispanic or Latino,97.0,179.2,27.5,101.6,67.3,71.3,32.8,7.0
+SUBJ-6168,Drug X,58.9,Male,White,Not Hispanic or Latino,45.0,168.7,37.3,145.9,76.1,84.9,40.8,2.1
+SUBJ-7572,Drug X,55.0,Female,White,Hispanic or Latino,92.2,185.1,36.4,140.4,85.3,74.5,29.9,3.6
+SUBJ-5386,Drug X,58.9,Male,Asian,Not Hispanic or Latino,72.2,155.5,26.2,146.5,94.5,74.5,30.1,3.9
+SUBJ-2084,Drug X,38.1,Female,White,Not Hispanic or Latino,54.5,169.9,27.7,154.0,77.5,58.9,28.7,0.5
+SUBJ-4456,Drug X,55.8,Male,Other,Not Hispanic or Latino,89.7,157.5,28.1,141.6,75.1,74.8,27.7,2.6
+SUBJ-6155,Drug X,61.6,Male,White,Not Hispanic or Latino,102.6,173.6,26.2,137.7,62.3,84.4,34.4,1.5
+SUBJ-4483,Drug X,72.8,Male,Asian,Not Hispanic or Latino,79.9,178.9,29.5,119.1,83.0,62.0,20.0,4.1
+SUBJ-9179,Drug X,52.8,Male,Black or African American,Not Hispanic or Latino,96.3,165.8,24.7,122.2,102.4,89.1,42.2,2.9
+SUBJ-7482,Drug X,49.9,Female,Black or African American,Not Hispanic or Latino,106.2,145.0,22.8,156.4,84.8,70.9,26.7,0.5
+SUBJ-8517,Drug X,53.0,Male,Black or African American,Not Hispanic or Latino,101.7,172.0,31.6,160.9,81.8,61.3,37.8,12.6
+SUBJ-3340,Drug X,67.2,Male,Black or African American,Not Hispanic or Latino,106.6,174.4,31.6,130.7,85.2,84.0,21.8,9.9
+SUBJ-5339,Drug X,61.3,Female,White,Not Hispanic or Latino,93.1,174.0,24.5,135.8,81.9,68.6,37.4,2.8
+SUBJ-3287,Drug X,52.7,Male,White,Not Hispanic or Latino,83.1,182.4,33.0,118.7,73.9,81.1,37.4,6.5
+SUBJ-5040,Drug X,63.1,Male,White,Not Hispanic or Latino,58.0,159.3,25.3,156.1,90.2,68.5,35.1,7.0
+SUBJ-9830,Drug X,59.0,Female,Asian,Not Hispanic or Latino,78.3,176.8,29.8,147.0,84.3,71.3,24.0,9.7
+SUBJ-5304,Drug X,67.7,Female,White,Not Hispanic or Latino,69.4,181.9,32.6,169.9,82.2,77.9,34.0,2.6
+SUBJ-8019,Drug X,51.0,Male,Black or African American,Not Hispanic or Latino,114.6,152.2,28.3,119.2,72.2,75.5,22.5,9.3
+SUBJ-7543,Drug X,54.7,Female,White,Not Hispanic or Latino,79.4,173.2,30.8,128.2,95.0,48.1,30.0,3.6
+SUBJ-6930,Drug X,54.1,Female,White,Not Hispanic or Latino,83.8,165.0,25.9,139.2,88.6,58.5,40.2,0.8
+SUBJ-4593,Drug X,43.4,Male,White,Not Hispanic or Latino,90.3,169.2,27.5,146.6,76.5,83.2,38.4,8.0
+SUBJ-3266,Drug X,61.0,Male,White,Hispanic or Latino,82.7,173.5,27.5,131.1,92.0,70.4,32.1,10.0
+SUBJ-9348,Drug X,60.6,Female,White,Not Hispanic or Latino,107.4,165.1,24.8,119.3,77.0,65.7,24.2,14.6
+SUBJ-9085,Drug X,58.1,Female,White,Hispanic or Latino,72.7,163.2,27.6,150.9,74.2,55.7,37.2,1.3
+SUBJ-2489,Drug X,55.7,Male,White,Not Hispanic or Latino,84.9,170.3,20.8,148.0,74.4,59.0,32.2,7.9
+SUBJ-1771,Drug X,43.8,Female,White,Not Hispanic or Latino,70.9,159.1,26.0,118.5,64.3,47.7,13.4,4.1
+SUBJ-2796,Drug X,53.8,Female,White,Not Hispanic or Latino,62.2,159.1,27.1,159.4,86.7,70.8,38.3,8.2
+SUBJ-3504,Drug X,54.6,Male,White,Not Hispanic or Latino,72.8,176.8,27.2,156.1,63.7,64.8,31.8,0.5
+SUBJ-3621,Drug X,50.0,Male,Black or African American,Not Hispanic or Latino,81.4,158.5,27.3,137.4,69.7,60.4,41.6,1.1
+SUBJ-7916,Drug X,56.4,Male,White,Not Hispanic or Latino,75.6,176.7,28.2,136.4,61.2,71.2,23.2,2.8
+SUBJ-2040,Drug X,62.0,Female,White,Not Hispanic or Latino,71.6,174.6,30.9,145.0,81.1,76.4,10.0,5.8
+SUBJ-7304,Drug X,76.9,Male,White,Not Hispanic or Latino,60.9,152.7,32.9,119.5,80.5,97.1,34.2,3.3
+SUBJ-7252,Drug X,59.7,Male,White,Not Hispanic or Latino,80.8,163.2,25.3,135.5,78.7,53.9,34.3,7.8
+SUBJ-8668,Drug X,60.6,Female,White,Not Hispanic or Latino,59.4,181.9,22.5,96.3,71.6,85.9,18.5,9.1
+SUBJ-9669,Drug X,57.3,Female,White,Not Hispanic or Latino,93.4,160.2,23.3,150.8,70.3,83.7,24.2,7.6
+SUBJ-5119,Drug X,38.8,Male,White,Not Hispanic or Latino,83.2,165.4,26.1,106.9,86.6,62.7,54.0,11.2
+SUBJ-1188,Drug X,57.7,Female,White,Not Hispanic or Latino,60.1,174.6,26.7,162.1,76.5,74.4,29.6,7.0
+SUBJ-2876,Drug X,58.6,Male,White,Not Hispanic or Latino,77.4,177.8,24.7,129.1,85.2,66.5,37.8,1.2
+SUBJ-9797,Drug X,80.0,Female,Asian,Not Hispanic or Latino,70.7,167.5,22.0,131.2,73.1,74.2,26.8,10.3
+SUBJ-5371,Drug X,56.1,Male,Black or African American,Hispanic or Latino,86.8,164.0,26.2,123.7,83.8,90.1,15.3,3.4
+SUBJ-6573,Drug X,61.0,Male,White,Hispanic or Latino,102.1,184.2,29.4,129.8,95.0,79.3,30.6,8.7
+SUBJ-2827,Drug X,57.7,Female,White,Not Hispanic or Latino,53.9,187.4,31.5,160.5,87.9,78.1,29.9,11.0
+SUBJ-5808,Drug X,46.3,Male,White,Not Hispanic or Latino,83.7,179.8,25.7,90.2,77.9,66.8,28.8,7.1
+SUBJ-8123,Drug X,69.4,Male,White,Not Hispanic or Latino,79.6,170.9,26.4,158.0,84.6,54.2,31.1,0.5
+SUBJ-3591,Drug X,65.5,Female,Other,Not Hispanic or Latino,92.1,161.9,23.9,141.1,79.6,69.5,34.1,2.3
+SUBJ-8433,Drug X,65.9,Female,White,Not Hispanic or Latino,85.2,161.7,28.3,113.3,82.1,86.5,30.8,10.1
+SUBJ-1053,Drug X,48.9,Female,White,Not Hispanic or Latino,70.7,175.2,24.3,115.6,78.7,53.7,21.9,4.9
+SUBJ-5315,Drug X,72.0,Female,White,Not Hispanic or Latino,77.2,174.2,31.4,165.2,80.4,59.3,35.9,5.8
+SUBJ-9201,Drug X,44.0,Male,Black or African American,Hispanic or Latino,70.1,184.0,19.6,118.0,84.1,73.5,16.4,8.2
+SUBJ-3927,Drug X,63.9,Male,White,Not Hispanic or Latino,98.1,176.5,26.7,114.2,72.1,60.2,15.6,7.9
+SUBJ-9317,Drug X,79.9,Male,White,Not Hispanic or Latino,82.3,155.0,30.0,155.5,71.8,62.5,37.9,6.5
+SUBJ-2743,Drug X,48.1,Male,White,Not Hispanic or Latino,110.5,180.5,29.4,141.1,68.1,66.9,36.1,4.8
+SUBJ-5889,Drug X,52.3,Female,White,Hispanic or Latino,81.1,160.0,42.0,118.1,66.0,55.6,31.5,4.4
+SUBJ-4258,Drug X,59.0,Male,White,Not Hispanic or Latino,71.4,166.2,30.2,138.9,69.8,60.3,20.8,8.5
+SUBJ-7126,Drug X,53.0,Male,White,Not Hispanic or Latino,59.3,172.5,23.5,116.5,83.6,80.4,26.3,7.4
+SUBJ-3646,Drug X,42.5,Male,White,Not Hispanic or Latino,55.0,190.0,28.0,154.8,73.1,56.3,29.9,4.6
+SUBJ-9837,Drug X,58.7,Female,White,Not Hispanic or Latino,58.2,200.0,19.6,154.1,87.1,52.8,19.2,9.3
+SUBJ-9689,Drug X,47.4,Male,White,Not Hispanic or Latino,86.0,176.1,28.1,144.6,82.3,64.4,26.1,5.0
+SUBJ-1009,Drug X,62.7,Male,White,Not Hispanic or Latino,89.6,168.2,24.3,141.5,62.3,80.8,37.2,2.5
+SUBJ-6310,Drug X,48.8,Male,White,Not Hispanic or Latino,58.3,175.3,33.1,166.7,88.5,69.6,43.4,2.8
+SUBJ-9005,Drug X,73.5,Male,White,Not Hispanic or Latino,95.4,178.9,25.8,135.0,90.1,66.4,28.6,2.1
+SUBJ-1319,Drug X,50.2,Male,Black or African American,Not Hispanic or Latino,74.8,166.8,27.9,113.7,72.1,72.5,38.1,4.5
+SUBJ-2832,Drug X,54.8,Female,White,Not Hispanic or Latino,84.2,188.0,25.3,143.1,86.2,51.1,16.7,9.8
+SUBJ-6947,Drug X,66.1,Female,White,Not Hispanic or Latino,106.2,172.3,37.2,172.5,73.4,77.9,37.3,2.7
+SUBJ-6038,Drug X,45.7,Male,White,Not Hispanic or Latino,95.5,175.0,26.9,116.7,83.0,76.6,25.6,6.2
+SUBJ-4923,Drug X,60.3,Female,White,Not Hispanic or Latino,78.0,176.7,37.7,128.5,69.4,67.1,34.5,3.2
+SUBJ-1949,Drug X,71.1,Female,Black or African American,Not Hispanic or Latino,68.6,174.2,32.6,142.5,64.1,84.1,30.0,4.6
+SUBJ-4946,Drug X,41.9,Female,White,Hispanic or Latino,49.7,178.4,30.9,134.0,78.2,58.5,42.6,0.5
+SUBJ-2290,Drug X,59.8,Male,Asian,Not Hispanic or Latino,71.2,163.8,30.3,117.3,80.8,85.5,25.0,4.7
+SUBJ-2403,Drug X,60.6,Male,White,Not Hispanic or Latino,78.8,164.4,30.5,155.2,78.0,73.9,37.0,4.8
+SUBJ-8962,Drug X,65.8,Male,White,Not Hispanic or Latino,67.2,159.0,18.9,176.8,70.2,68.0,29.8,7.4
+SUBJ-2133,Drug X,45.6,Male,Black or African American,Not Hispanic or Latino,80.0,174.4,27.1,138.5,78.0,71.8,30.7,6.3
+SUBJ-9727,Drug X,44.8,Female,Asian,Not Hispanic or Latino,83.2,177.8,32.7,118.7,84.7,70.7,30.5,1.3
+SUBJ-3060,Drug X,63.2,Female,Black or African American,Not Hispanic or Latino,78.6,174.6,28.3,107.1,81.6,86.6,25.2,9.3
+SUBJ-3103,Drug X,61.0,Female,Black or African American,Not Hispanic or Latino,72.2,186.7,21.5,139.6,83.8,59.1,31.9,6.2
+SUBJ-8787,Drug X,60.5,Male,White,Not Hispanic or Latino,84.5,169.9,28.2,154.9,75.3,62.8,31.5,6.2
+SUBJ-3705,Drug X,61.5,Male,Black or African American,Not Hispanic or Latino,88.6,176.7,37.0,143.6,93.7,84.4,33.9,5.5
+SUBJ-5342,Drug X,51.2,Female,White,Not Hispanic or Latino,65.6,159.1,34.7,135.0,70.2,64.9,32.7,3.7
+SUBJ-9645,Drug X,60.3,Female,Asian,Not Hispanic or Latino,103.2,166.1,28.2,124.4,86.9,82.8,38.4,6.3
+SUBJ-7932,Drug X,60.9,Male,White,Not Hispanic or Latino,80.5,177.0,33.3,115.3,93.8,92.4,39.4,7.2
+SUBJ-4470,Drug X,50.9,Female,Black or African American,Not Hispanic or Latino,82.3,178.5,26.7,150.0,86.8,67.2,23.6,0.5
+SUBJ-9835,Drug X,76.7,Female,White,Not Hispanic or Latino,92.6,167.1,20.0,151.4,80.0,80.2,39.0,3.6
+SUBJ-4295,Drug X,62.7,Male,White,Hispanic or Latino,85.5,169.3,23.9,107.2,76.7,58.2,22.5,4.6
+SUBJ-6107,Drug X,46.1,Male,White,Not Hispanic or Latino,96.3,154.8,36.3,163.6,92.4,81.1,36.7,6.4
+SUBJ-7537,Drug X,64.6,Male,Black or African American,Not Hispanic or Latino,86.3,166.4,27.1,145.3,67.8,74.4,37.0,9.7
+SUBJ-7118,Drug X,48.3,Male,White,Not Hispanic or Latino,72.8,178.9,27.3,160.2,72.3,77.7,16.7,2.8
+SUBJ-8177,Drug X,65.9,Male,White,Not Hispanic or Latino,87.4,175.8,27.0,110.8,78.0,64.3,32.7,3.8
+SUBJ-9479,Drug X,69.6,Female,White,Not Hispanic or Latino,64.8,175.0,38.0,110.4,94.4,52.1,28.3,3.7
+SUBJ-8397,Drug X,49.8,Male,White,Not Hispanic or Latino,83.6,170.5,36.6,132.3,85.8,78.0,25.9,2.7
+SUBJ-2982,Drug X,67.6,Male,Asian,Not Hispanic or Latino,81.5,170.1,39.6,144.1,72.3,47.2,42.8,4.3
+SUBJ-5061,Drug X,62.1,Male,White,Not Hispanic or Latino,78.9,163.4,27.7,167.3,78.9,68.2,26.8,8.2
+SUBJ-4681,Drug X,66.2,Male,Other,Not Hispanic or Latino,80.1,177.0,30.0,147.7,75.9,83.3,25.5,1.8
+SUBJ-2049,Drug X,77.0,Female,White,Not Hispanic or Latino,53.8,174.2,20.9,130.6,74.9,74.3,32.6,7.0
+SUBJ-6539,Drug X,55.5,Male,White,Not Hispanic or Latino,73.8,174.9,35.9,116.5,91.8,95.4,37.5,0.5
+SUBJ-1344,Drug X,50.5,Male,Black or African American,Hispanic or Latino,83.4,164.7,22.7,157.1,68.3,84.3,30.9,3.5
+SUBJ-4770,Drug X,49.1,Female,White,Not Hispanic or Latino,84.4,148.5,29.6,117.6,98.1,64.2,41.3,4.3
+SUBJ-4608,Drug X,49.8,Male,White,Not Hispanic or Latino,66.6,181.0,23.0,164.3,90.3,72.3,36.2,11.4
+SUBJ-1117,Drug X,57.2,Male,White,Hispanic or Latino,101.0,165.2,25.6,129.9,92.9,71.4,14.6,4.5
+SUBJ-2163,Drug X,61.4,Male,Black or African American,Not Hispanic or Latino,69.0,161.4,24.3,163.6,77.4,53.0,27.8,0.5
+SUBJ-1964,Drug X,60.8,Male,White,Not Hispanic or Latino,96.5,176.9,25.5,147.2,80.5,60.7,27.5,0.5
+SUBJ-4750,Drug X,66.3,Male,Other,Not Hispanic or Latino,88.4,166.1,25.8,132.5,67.7,65.3,35.8,5.6
+SUBJ-2104,Drug X,58.1,Male,Other,Not Hispanic or Latino,72.3,180.6,25.8,125.7,76.8,47.6,11.0,7.6
+SUBJ-1514,Drug X,72.5,Male,White,Not Hispanic or Latino,108.6,176.2,32.7,128.9,86.9,72.6,52.4,6.8
+SUBJ-6413,Drug X,55.4,Female,White,Not Hispanic or Latino,64.1,176.8,23.0,142.7,95.0,69.0,36.2,6.1
+SUBJ-2160,Drug X,80.0,Male,White,Not Hispanic or Latino,95.8,156.3,29.6,136.4,70.9,51.9,33.2,9.6
+SUBJ-9423,Drug X,64.3,Male,White,Hispanic or Latino,97.0,182.1,34.6,124.3,78.3,76.9,41.5,3.6
+SUBJ-4899,Drug X,49.4,Female,White,Not Hispanic or Latino,71.9,172.6,25.9,132.0,80.5,80.6,50.7,8.6
+SUBJ-5562,Drug X,47.3,Male,White,Not Hispanic or Latino,102.9,166.3,24.9,136.4,68.0,74.7,39.0,0.5
+SUBJ-8953,Drug X,62.8,Female,White,Not Hispanic or Latino,78.2,171.4,27.3,96.7,87.9,68.1,39.6,2.3
+SUBJ-4510,Drug X,55.8,Male,Asian,Not Hispanic or Latino,86.3,152.2,34.4,143.2,74.8,79.1,33.0,0.5
+SUBJ-9834,Drug X,65.1,Female,Black or African American,Not Hispanic or Latino,85.9,174.1,29.5,117.4,80.0,80.2,30.9,4.5
+SUBJ-3167,Drug X,62.7,Male,Black or African American,Hispanic or Latino,80.0,159.7,25.8,114.2,77.5,75.7,28.2,5.3
+SUBJ-8744,Drug X,57.3,Male,White,Not Hispanic or Latino,94.2,156.5,30.9,104.6,74.1,62.1,25.4,5.9
+SUBJ-4981,Drug X,49.5,Male,White,Not Hispanic or Latino,93.9,154.8,23.0,102.7,81.9,75.3,26.5,5.7
+SUBJ-8749,Drug X,42.9,Female,White,Not Hispanic or Latino,55.8,181.1,31.9,110.6,79.8,86.3,21.2,2.3
+SUBJ-7669,Drug X,53.5,Male,Other,Hispanic or Latino,101.6,163.7,30.5,122.2,78.3,64.8,31.4,4.8
+SUBJ-4119,Drug X,66.6,Male,White,Not Hispanic or Latino,57.1,185.3,27.0,170.2,74.7,97.2,18.5,0.5
+SUBJ-2545,Drug X,60.1,Male,Asian,Not Hispanic or Latino,97.5,164.6,24.3,125.5,85.2,65.7,33.5,10.3
+SUBJ-2588,Drug X,45.5,Female,White,Not Hispanic or Latino,98.9,152.9,24.1,138.2,98.5,72.4,31.7,4.4
+SUBJ-8062,Drug X,59.7,Male,White,Hispanic or Latino,65.6,158.8,31.2,142.2,83.4,63.9,33.2,3.8
+SUBJ-6804,Drug X,61.9,Female,Black or African American,Not Hispanic or Latino,75.8,182.4,34.6,137.4,92.0,74.7,27.8,11.1
+SUBJ-7939,Drug X,49.2,Male,White,Hispanic or Latino,65.4,168.4,25.3,133.6,68.1,51.1,55.0,1.2
+SUBJ-7735,Drug X,59.5,Male,Asian,Not Hispanic or Latino,78.8,164.5,30.8,113.5,83.6,65.4,42.9,1.6
+SUBJ-8651,Drug X,58.6,Male,Asian,Not Hispanic or Latino,77.4,171.6,18.1,161.1,71.0,58.9,22.0,1.7
+SUBJ-1887,Drug X,46.6,Male,White,Not Hispanic or Latino,93.7,175.0,25.6,167.5,67.2,73.6,33.9,5.3
+SUBJ-2612,Drug X,61.6,Male,White,Not Hispanic or Latino,101.7,181.2,28.3,104.7,74.6,83.9,27.1,7.0
+SUBJ-1993,Drug X,63.6,Male,White,Not Hispanic or Latino,102.9,184.5,24.0,116.6,93.9,79.8,23.9,8.1
+SUBJ-7596,Drug X,68.8,Female,Asian,Not Hispanic or Latino,73.6,166.4,23.8,130.0,91.5,45.0,21.3,14.5
+SUBJ-6559,Drug X,68.5,Male,White,Not Hispanic or Latino,78.9,156.7,25.2,117.6,84.4,96.5,35.5,0.5
+SUBJ-2790,Drug X,44.2,Male,White,Not Hispanic or Latino,56.7,165.9,30.0,144.1,66.7,75.5,26.5,7.6
+SUBJ-5073,Drug X,48.6,Male,White,Not Hispanic or Latino,69.9,172.6,27.6,121.9,80.0,62.7,39.7,3.6
+SUBJ-4139,Drug X,63.2,Male,Black or African American,Hispanic or Latino,96.5,160.4,18.0,174.0,85.0,73.9,40.0,3.4
+SUBJ-4116,Drug X,63.1,Male,White,Hispanic or Latino,106.2,160.4,18.0,156.4,83.8,74.1,43.0,3.3
+SUBJ-9786,Drug X,63.2,Male,Black or African American,Not Hispanic or Latino,63.5,173.4,25.5,138.8,63.6,64.0,25.2,2.3
+SUBJ-8350,Drug X,80.0,Male,Asian,Not Hispanic or Latino,73.1,169.5,30.8,153.5,73.1,74.4,35.8,11.4
+SUBJ-3296,Drug X,63.7,Female,White,Not Hispanic or Latino,81.6,170.3,18.0,154.9,81.4,64.7,37.1,8.4
+SUBJ-4006,Drug X,69.4,Female,White,Not Hispanic or Latino,86.2,162.4,26.0,124.8,87.4,67.1,28.2,5.6
+SUBJ-5563,Drug X,67.5,Male,Other,Not Hispanic or Latino,69.9,167.7,25.9,120.3,60.0,63.8,25.8,10.2
+SUBJ-8579,Drug X,64.5,Male,White,Not Hispanic or Latino,88.4,160.8,35.4,136.4,80.4,54.8,44.9,0.5
+SUBJ-5092,Drug X,54.8,Female,Asian,Not Hispanic or Latino,74.9,178.9,26.6,150.5,83.4,73.8,33.8,0.8
+SUBJ-2235,Drug X,65.6,Male,White,Not Hispanic or Latino,81.8,180.4,30.4,137.5,90.5,79.0,37.1,0.5
+SUBJ-8260,Drug X,50.3,Male,White,Not Hispanic or Latino,90.2,151.5,29.2,106.6,88.9,78.2,25.4,3.1
+SUBJ-2604,Drug X,55.6,Male,Asian,Not Hispanic or Latino,82.1,160.7,18.0,120.5,87.8,81.8,22.2,6.1
+SUBJ-1828,Drug X,53.1,Female,White,Not Hispanic or Latino,75.5,155.0,32.3,133.7,74.0,75.9,27.4,5.9
+SUBJ-9856,Drug X,58.8,Female,White,Not Hispanic or Latino,80.4,163.5,29.6,133.6,62.9,65.6,31.0,6.0
+SUBJ-1241,Drug X,80.0,Male,White,Not Hispanic or Latino,80.7,169.2,31.0,170.5,78.1,82.1,23.5,0.6
+SUBJ-2528,Drug X,39.3,Male,White,Not Hispanic or Latino,76.4,155.5,45.0,110.1,92.0,55.7,31.9,8.3
+SUBJ-4872,Drug X,64.9,Male,White,Not Hispanic or Latino,78.1,160.8,18.1,144.1,95.9,61.2,18.5,6.3
+SUBJ-3724,Drug X,41.9,Female,White,Hispanic or Latino,106.0,160.0,37.1,161.8,89.1,60.4,23.0,8.1
+SUBJ-7658,Drug X,53.3,Male,Other,Not Hispanic or Latino,90.4,172.1,27.1,175.9,86.3,85.0,37.4,0.5
+SUBJ-8956,Drug X,68.9,Male,White,Not Hispanic or Latino,77.6,170.7,29.9,127.7,85.8,83.3,36.8,6.6
+SUBJ-8886,Drug X,58.6,Female,White,Not Hispanic or Latino,92.5,162.8,28.3,143.8,76.4,77.8,28.9,1.3
+SUBJ-4502,Drug X,47.2,Male,White,Not Hispanic or Latino,77.0,171.8,26.4,145.3,80.7,84.9,23.9,4.1
+SUBJ-7570,Drug X,50.8,Female,Black or African American,Not Hispanic or Latino,99.6,164.5,25.7,138.5,98.7,61.4,23.8,7.4
+SUBJ-1960,Drug X,64.8,Male,White,Not Hispanic or Latino,87.5,167.3,30.1,133.2,72.6,76.2,29.0,5.8
+SUBJ-3697,Drug X,50.7,Male,Other,Not Hispanic or Latino,80.4,186.7,20.9,142.8,98.1,70.5,37.2,2.5
+SUBJ-7209,Drug X,60.2,Male,White,Hispanic or Latino,88.7,183.4,32.3,90.0,78.8,82.2,39.4,5.5
+SUBJ-1035,Drug X,58.5,Female,White,Not Hispanic or Latino,58.4,157.0,26.4,147.3,95.3,70.6,28.0,0.5
+SUBJ-7396,Drug X,51.5,Female,White,Not Hispanic or Latino,65.1,178.3,22.8,137.3,67.9,67.4,22.8,9.5
+SUBJ-5345,Drug X,79.4,Female,White,Not Hispanic or Latino,64.1,178.1,26.2,131.0,87.9,78.5,34.1,4.8
+SUBJ-8454,Drug X,64.3,Male,White,Not Hispanic or Latino,84.1,158.5,34.8,171.8,74.6,82.5,25.4,9.4
+SUBJ-5673,Drug X,37.7,Female,White,Not Hispanic or Latino,108.0,178.2,25.8,122.9,67.8,64.0,27.9,3.7
+SUBJ-7930,Drug X,59.9,Male,Black or African American,Not Hispanic or Latino,115.5,185.4,30.3,127.7,84.2,71.3,42.6,3.7
+SUBJ-8973,Drug X,51.4,Male,White,Not Hispanic or Latino,91.6,158.8,24.8,170.8,92.1,59.3,38.6,2.8
+SUBJ-3536,Drug X,66.5,Female,White,Not Hispanic or Latino,89.5,160.8,32.3,120.0,73.6,45.0,33.3,8.6
+SUBJ-4111,Drug X,50.1,Male,White,Not Hispanic or Latino,55.0,180.2,31.9,125.1,67.0,74.4,21.8,3.0
+SUBJ-5861,Drug X,56.9,Male,Black or African American,Not Hispanic or Latino,73.9,172.7,37.7,132.4,81.1,79.3,33.7,7.8
+SUBJ-4566,Drug X,63.0,Male,White,Not Hispanic or Latino,70.2,175.5,27.6,150.1,81.1,75.1,40.5,4.2
+SUBJ-1958,Drug X,66.7,Male,White,Not Hispanic or Latino,72.7,173.4,31.8,138.7,87.5,48.6,29.0,0.5
+SUBJ-9883,Drug X,46.0,Male,White,Not Hispanic or Latino,79.5,173.9,29.0,111.7,91.5,67.8,42.8,3.5
+SUBJ-1998,Drug X,54.7,Male,Black or African American,Not Hispanic or Latino,74.9,156.7,35.0,125.4,81.4,45.4,42.3,1.4
+SUBJ-6138,Drug X,53.3,Male,White,Not Hispanic or Latino,52.3,180.5,24.9,124.1,100.6,88.4,45.3,5.6
+SUBJ-1936,Drug X,51.5,Female,White,Not Hispanic or Latino,93.2,181.7,32.2,133.6,84.2,59.0,34.4,1.3
+SUBJ-1821,Drug X,75.7,Female,Black or African American,Hispanic or Latino,65.9,167.7,27.5,142.7,78.5,87.1,36.7,8.7
+SUBJ-8811,Drug X,62.0,Male,Black or African American,Not Hispanic or Latino,85.6,169.6,28.2,142.5,65.9,83.4,43.3,5.2
+SUBJ-9238,Drug X,45.4,Male,White,Not Hispanic or Latino,113.1,154.7,29.0,103.0,79.4,61.2,35.6,4.9
+SUBJ-9701,Drug X,67.2,Male,Asian,Not Hispanic or Latino,68.2,175.1,29.8,154.2,78.6,58.4,28.0,7.8
+SUBJ-3579,Drug X,79.2,Male,White,Not Hispanic or Latino,45.0,175.7,27.9,139.5,91.6,76.2,28.4,8.9
+SUBJ-1931,Drug X,68.3,Male,White,Hispanic or Latino,77.7,169.4,29.6,159.9,86.6,61.9,33.9,5.4
+SUBJ-9320,Drug X,42.8,Female,White,Hispanic or Latino,98.5,181.2,36.4,143.0,70.2,73.2,21.7,2.8
+SUBJ-2312,Drug X,53.2,Male,White,Not Hispanic or Latino,111.4,166.7,33.4,154.8,83.7,66.2,30.9,0.5
+SUBJ-4044,Drug X,70.7,Male,White,Not Hispanic or Latino,63.6,175.6,32.8,143.4,88.7,50.6,40.8,3.1
+SUBJ-2122,Drug X,50.9,Male,Asian,Not Hispanic or Latino,89.5,159.8,26.2,159.2,97.3,45.2,14.5,3.3
+SUBJ-2113,Drug X,62.4,Male,White,Hispanic or Latino,75.0,169.8,24.1,144.4,90.9,74.7,44.3,5.9
+SUBJ-4853,Drug X,65.7,Female,White,Not Hispanic or Latino,80.4,168.3,33.3,133.2,89.6,65.3,41.0,4.3
+SUBJ-7615,Drug X,48.7,Female,White,Not Hispanic or Latino,121.7,172.3,32.9,175.9,82.6,65.4,28.3,7.9
+SUBJ-2964,Drug X,57.4,Male,Asian,Not Hispanic or Latino,59.5,166.3,35.9,151.0,85.9,80.4,36.3,3.4
+SUBJ-5033,Drug X,30.0,Female,White,Not Hispanic or Latino,85.8,168.7,25.5,145.3,94.5,86.1,32.0,5.3
+SUBJ-1651,Drug X,47.8,Male,White,Not Hispanic or Latino,89.0,178.3,27.4,112.0,68.7,68.7,41.8,9.6
+SUBJ-2343,Drug X,55.5,Female,White,Not Hispanic or Latino,98.3,165.6,20.3,111.8,78.5,67.9,39.9,6.7
+SUBJ-7868,Drug X,45.5,Female,White,Not Hispanic or Latino,83.5,153.9,26.5,140.3,74.3,78.0,20.8,5.3
+SUBJ-9565,Drug X,74.3,Male,Other,Not Hispanic or Latino,86.6,187.5,33.5,137.6,85.8,55.7,36.7,3.4
+SUBJ-6183,Drug X,43.7,Male,Other,Not Hispanic or Latino,76.1,183.8,26.2,123.9,94.3,74.7,30.4,3.3
+SUBJ-5272,Drug X,53.6,Male,White,Not Hispanic or Latino,86.0,157.1,31.7,137.5,76.0,78.6,32.7,2.5
+SUBJ-4346,Drug X,59.3,Male,Other,Not Hispanic or Latino,76.9,176.9,27.5,163.6,58.1,80.2,26.2,3.6
+SUBJ-6147,Drug X,72.4,Female,White,Not Hispanic or Latino,91.3,165.0,30.1,147.5,77.9,48.8,46.0,8.1
+SUBJ-4910,Drug X,43.6,Male,Asian,Not Hispanic or Latino,76.5,172.6,22.8,114.5,91.1,62.9,40.3,4.7
+SUBJ-5351,Drug X,69.6,Male,White,Not Hispanic or Latino,87.7,172.9,28.9,133.0,87.4,61.5,26.1,0.8
+SUBJ-7484,Drug X,58.1,Female,White,Not Hispanic or Latino,81.6,167.7,18.0,120.5,86.3,73.2,21.3,11.7
+SUBJ-3144,Drug X,48.2,Female,White,Not Hispanic or Latino,98.9,162.2,27.6,128.0,79.2,77.8,28.9,6.6
+SUBJ-5915,Drug X,62.6,Male,White,Not Hispanic or Latino,81.2,163.1,20.3,127.6,69.2,90.0,35.5,0.6
+SUBJ-8491,Drug X,60.0,Male,White,Not Hispanic or Latino,55.4,160.8,34.5,126.4,87.2,66.1,33.9,4.0
+SUBJ-6180,Drug X,52.0,Male,White,Not Hispanic or Latino,100.9,161.7,32.4,112.4,73.7,66.0,42.0,5.9
+SUBJ-2188,Drug X,58.7,Male,White,Not Hispanic or Latino,68.4,169.3,30.8,132.7,103.8,85.8,38.3,11.5
+SUBJ-1152,Drug X,54.1,Female,Black or African American,Not Hispanic or Latino,72.2,162.8,36.1,124.9,87.7,75.6,39.8,1.6
+SUBJ-8508,Drug X,59.1,Male,White,Not Hispanic or Latino,73.1,176.8,23.8,90.0,76.2,87.2,34.6,8.9
+SUBJ-2638,Drug X,64.6,Male,White,Not Hispanic or Latino,102.6,184.9,37.2,172.0,75.9,75.5,20.9,10.4
+SUBJ-2200,Drug X,73.9,Male,Other,Not Hispanic or Latino,50.0,164.2,33.2,154.6,81.1,58.1,30.4,3.3
+SUBJ-9808,Drug X,45.6,Male,White,Not Hispanic or Latino,129.1,172.4,27.3,128.2,79.6,56.0,40.5,4.5
+SUBJ-4492,Drug X,79.3,Female,White,Not Hispanic or Latino,97.8,175.0,34.2,135.3,93.2,53.4,31.6,1.9
+SUBJ-9288,Drug X,38.5,Female,White,Not Hispanic or Latino,85.3,174.7,23.0,113.9,83.9,79.9,36.0,4.8
+SUBJ-3170,Drug X,56.5,Male,Asian,Not Hispanic or Latino,81.2,170.8,24.4,165.5,74.7,86.3,29.5,5.4
+SUBJ-6718,Drug X,63.9,Male,White,Not Hispanic or Latino,86.3,177.4,25.5,169.2,100.9,94.2,23.8,7.8
+SUBJ-2127,Drug X,60.8,Male,White,Not Hispanic or Latino,89.8,174.8,25.9,137.8,82.5,82.1,31.0,9.3
+SUBJ-5002,Drug X,51.8,Female,Black or African American,Not Hispanic or Latino,91.7,157.6,23.2,153.4,89.7,86.0,34.5,2.9
+SUBJ-7054,Drug X,55.9,Female,Asian,Not Hispanic or Latino,90.3,178.7,34.6,138.2,75.9,65.0,26.8,0.5
+SUBJ-5669,Drug X,53.1,Male,White,Not Hispanic or Latino,83.3,178.9,27.2,110.9,85.6,58.1,30.1,5.4
+SUBJ-3584,Drug X,52.1,Male,White,Not Hispanic or Latino,79.0,162.4,30.3,127.6,85.1,82.2,24.5,6.5
+SUBJ-8179,Drug X,66.5,Female,White,Not Hispanic or Latino,79.7,170.4,25.6,137.4,63.1,77.0,41.0,6.4
+SUBJ-9900,Drug X,61.6,Male,Asian,Not Hispanic or Latino,79.1,176.8,19.4,126.8,102.2,73.3,29.6,4.4
+SUBJ-5956,Drug X,51.1,Female,White,Not Hispanic or Latino,99.0,167.9,29.9,131.1,94.9,76.6,43.6,5.9
+SUBJ-9666,Drug X,67.0,Male,White,Hispanic or Latino,90.9,180.7,18.9,133.4,78.0,75.9,44.2,10.8
+SUBJ-1128,Drug X,61.1,Male,Asian,Hispanic or Latino,45.0,193.6,28.2,133.5,71.0,87.4,31.4,6.8
+SUBJ-5905,Drug X,66.1,Male,White,Not Hispanic or Latino,91.8,162.1,21.7,135.9,85.5,87.5,23.9,4.2
+SUBJ-2697,Drug X,64.3,Male,White,Not Hispanic or Latino,84.9,156.2,38.4,115.9,82.9,78.5,15.3,3.7
+SUBJ-3200,Drug X,49.7,Male,White,Not Hispanic or Latino,81.7,173.0,33.1,122.1,85.6,82.1,20.2,4.9
+SUBJ-2891,Drug X,52.4,Female,White,Not Hispanic or Latino,76.2,177.2,29.0,111.9,83.9,78.2,21.0,11.2
+SUBJ-2753,Drug X,65.5,Male,White,Not Hispanic or Latino,98.9,167.7,34.8,152.6,87.1,66.5,43.0,4.9
+SUBJ-3546,Drug X,64.1,Male,White,Not Hispanic or Latino,96.2,184.5,24.3,97.1,96.5,81.1,32.9,5.4
+SUBJ-5462,Drug X,57.8,Male,White,Not Hispanic or Latino,70.4,156.6,31.2,155.8,87.7,55.3,35.1,3.8
+SUBJ-5616,Drug X,59.2,Male,White,Not Hispanic or Latino,88.1,176.9,29.5,160.0,71.5,84.6,14.2,9.3
+SUBJ-4450,Drug X,70.8,Male,Other,Not Hispanic or Latino,67.4,163.9,29.8,129.6,95.6,57.7,22.4,12.4
+SUBJ-6617,Drug X,52.1,Male,White,Not Hispanic or Latino,61.3,187.2,34.9,90.0,98.4,75.4,39.1,7.1
+SUBJ-4335,Drug X,63.5,Female,Other,Not Hispanic or Latino,72.6,189.9,32.2,128.5,113.5,61.9,34.3,5.8
+SUBJ-5325,Drug X,56.0,Male,White,Not Hispanic or Latino,94.9,162.3,29.9,133.8,70.8,78.6,30.8,5.6
+SUBJ-9280,Drug X,55.8,Male,Asian,Not Hispanic or Latino,96.3,164.5,20.2,116.8,84.4,71.6,36.5,0.5
+SUBJ-9004,Drug X,69.0,Male,Black or African American,Not Hispanic or Latino,89.7,178.6,23.7,125.7,61.2,52.9,45.1,8.1
+SUBJ-5114,Drug X,66.3,Female,White,Not Hispanic or Latino,92.9,166.1,27.9,162.5,87.5,77.0,30.2,6.0
+SUBJ-1832,Drug X,66.1,Female,Black or African American,Not Hispanic or Latino,89.7,169.5,29.0,147.0,76.5,65.1,32.6,7.0
+SUBJ-2512,Drug X,71.1,Female,Asian,Not Hispanic or Latino,72.4,170.3,22.8,118.4,101.2,82.6,33.5,3.0
+SUBJ-5533,Drug X,58.2,Male,White,Not Hispanic or Latino,88.5,150.8,40.6,106.2,74.3,72.0,51.1,4.2
+SUBJ-1722,Drug X,64.8,Male,White,Not Hispanic or Latino,94.0,169.9,36.1,129.1,65.1,76.7,15.2,4.1
+SUBJ-1058,Drug X,54.9,Male,White,Hispanic or Latino,93.3,163.1,31.5,131.2,77.3,60.5,37.5,9.1
+SUBJ-6464,Drug X,61.2,Male,Black or African American,Not Hispanic or Latino,99.8,165.1,28.9,143.9,62.2,64.9,31.1,4.2
+SUBJ-3143,Drug X,56.7,Male,Black or African American,Not Hispanic or Latino,92.6,184.4,27.4,125.4,89.5,66.5,36.5,12.8
+SUBJ-5291,Drug X,59.0,Male,Black or African American,Hispanic or Latino,87.3,157.4,23.7,144.2,61.3,82.3,26.7,7.0
+SUBJ-3647,Drug X,64.0,Male,White,Not Hispanic or Latino,98.1,178.1,28.9,169.8,82.3,92.1,31.6,1.0
+SUBJ-8239,Drug X,49.8,Male,Black or African American,Not Hispanic or Latino,81.6,167.2,29.8,149.7,61.2,62.3,37.7,5.1
+SUBJ-8007,Drug X,78.9,Female,White,Not Hispanic or Latino,68.8,167.2,22.3,134.1,78.8,84.9,55.0,3.2
+SUBJ-1158,Drug X,47.9,Male,White,Not Hispanic or Latino,79.6,177.9,30.2,131.7,98.4,46.0,38.5,0.5
+SUBJ-2232,Drug X,45.9,Male,White,Not Hispanic or Latino,70.8,173.4,27.7,128.6,85.6,57.7,25.2,11.1
+SUBJ-3442,Drug X,69.6,Female,White,Not Hispanic or Latino,71.9,175.7,19.0,156.3,73.4,60.5,28.6,8.0
+SUBJ-9938,Drug X,65.9,Male,White,Not Hispanic or Latino,79.8,179.7,24.2,123.7,81.7,55.8,28.4,7.4
+SUBJ-1590,Drug X,64.2,Female,White,Not Hispanic or Latino,70.1,166.7,26.4,135.8,82.2,53.0,17.6,6.1
+SUBJ-7049,Drug X,64.3,Male,White,Not Hispanic or Latino,77.4,163.9,37.9,135.9,86.7,77.0,29.4,0.7
+SUBJ-3426,Drug X,57.9,Male,White,Not Hispanic or Latino,53.6,159.1,31.3,126.0,68.3,69.4,37.9,3.8
+SUBJ-8041,Drug X,49.0,Female,White,Not Hispanic or Latino,85.2,161.7,21.8,110.3,87.9,76.6,21.8,8.4
+SUBJ-3088,Drug X,58.8,Female,White,Not Hispanic or Latino,82.0,199.5,30.9,140.8,55.0,80.3,40.4,1.8
+SUBJ-1685,Drug X,51.2,Female,White,Not Hispanic or Latino,69.7,182.4,20.8,133.9,75.7,75.2,35.9,0.5
+SUBJ-6050,Drug X,67.8,Male,White,Not Hispanic or Latino,91.9,156.5,33.9,144.0,77.1,79.9,26.1,4.7
+SUBJ-6974,Drug X,56.5,Male,White,Not Hispanic or Latino,96.1,156.8,26.1,125.4,88.3,71.2,30.9,5.0
+SUBJ-1653,Drug X,49.7,Male,White,Not Hispanic or Latino,57.9,174.8,28.0,157.0,82.2,57.8,44.8,6.0
+SUBJ-6862,Drug X,54.8,Male,White,Not Hispanic or Latino,70.6,175.5,35.1,119.2,67.9,84.7,37.9,8.0
+SUBJ-4441,Drug X,62.1,Female,White,Hispanic or Latino,70.5,175.5,22.1,165.8,72.2,64.9,32.1,7.7
+SUBJ-5088,Drug X,52.4,Male,White,Not Hispanic or Latino,67.9,167.5,21.5,103.5,84.0,60.8,30.1,6.4
+SUBJ-2684,Drug X,49.8,Female,White,Not Hispanic or Latino,94.4,168.7,25.6,142.8,81.2,69.9,32.6,9.7
+SUBJ-6794,Drug X,60.4,Male,Asian,Not Hispanic or Latino,79.1,173.3,33.7,143.6,76.2,61.0,27.9,0.5
+SUBJ-3532,Drug X,60.4,Male,White,Not Hispanic or Latino,78.0,170.9,20.9,120.7,77.2,67.0,15.2,7.3
+SUBJ-4878,Drug X,52.9,Male,White,Not Hispanic or Latino,51.9,147.8,18.0,142.6,89.0,76.1,48.3,7.7
+SUBJ-3662,Drug X,53.3,Female,White,Hispanic or Latino,91.5,167.7,26.2,158.0,76.8,76.2,33.2,1.2
+SUBJ-3900,Drug X,60.3,Female,White,Not Hispanic or Latino,63.4,161.5,31.3,95.1,81.1,61.2,35.2,0.5
+SUBJ-7755,Drug X,43.5,Female,White,Not Hispanic or Latino,82.9,171.8,34.5,144.0,103.7,66.1,31.5,2.9
+SUBJ-1406,Drug X,43.9,Female,White,Not Hispanic or Latino,86.2,199.9,26.2,90.1,67.8,84.9,26.1,3.2
+SUBJ-3938,Drug X,50.8,Female,White,Not Hispanic or Latino,102.4,173.7,26.4,117.6,63.5,78.0,30.5,8.1
+SUBJ-6442,Drug X,55.9,Female,White,Not Hispanic or Latino,62.4,166.9,34.3,164.3,89.8,96.9,19.2,3.3
+SUBJ-7745,Drug X,61.1,Male,White,Not Hispanic or Latino,45.0,179.2,19.2,124.5,75.2,86.2,50.2,2.5
+SUBJ-5065,Drug X,72.8,Male,Black or African American,Not Hispanic or Latino,84.8,174.8,26.6,113.9,78.8,85.7,22.1,3.4
+SUBJ-3608,Drug X,66.6,Male,Black or African American,Not Hispanic or Latino,109.0,174.2,29.5,131.4,74.2,55.3,23.7,9.4
+SUBJ-2771,Drug X,56.4,Female,Black or African American,Not Hispanic or Latino,100.6,176.1,30.7,172.2,79.4,81.2,28.5,5.5
+SUBJ-7267,Drug X,57.8,Female,Other,Hispanic or Latino,85.1,190.6,26.0,102.0,98.0,71.4,42.3,4.9
+SUBJ-1634,Drug X,48.0,Male,White,Not Hispanic or Latino,74.6,158.7,28.7,116.1,90.0,65.4,32.1,5.1
+SUBJ-8711,Drug X,57.8,Female,White,Not Hispanic or Latino,94.1,174.7,18.0,162.0,90.6,74.0,22.1,10.0
+SUBJ-4644,Drug X,55.1,Female,White,Not Hispanic or Latino,67.4,160.7,25.2,168.4,67.8,83.3,42.0,2.9
+SUBJ-4269,Drug X,61.2,Male,White,Not Hispanic or Latino,89.1,175.6,30.8,133.1,70.5,78.0,37.8,10.1
+SUBJ-8541,Drug X,49.7,Male,Asian,Hispanic or Latino,89.6,160.8,23.6,112.7,53.6,61.5,36.3,6.2
+SUBJ-6728,Drug X,63.2,Female,White,Not Hispanic or Latino,97.9,165.8,28.8,172.7,73.9,80.9,37.7,4.9
+SUBJ-6000,Drug X,73.3,Male,Asian,Not Hispanic or Latino,123.4,167.0,30.7,163.7,91.6,64.3,51.2,14.3
+SUBJ-4728,Drug X,56.9,Female,White,Hispanic or Latino,87.9,179.8,26.8,147.2,87.2,74.6,49.5,1.8
+SUBJ-4652,Drug X,62.0,Male,Asian,Not Hispanic or Latino,74.4,179.2,29.4,120.4,79.8,68.4,26.5,4.3
+SUBJ-1387,Drug X,64.9,Female,White,Hispanic or Latino,81.6,157.5,23.7,134.1,81.8,69.4,45.0,1.2
+SUBJ-4164,Drug X,54.0,Female,White,Not Hispanic or Latino,55.5,170.5,27.5,132.1,75.1,81.2,35.1,8.8
+SUBJ-7528,Drug X,60.2,Female,White,Not Hispanic or Latino,71.6,162.9,31.6,141.0,84.0,59.5,36.0,11.4
+SUBJ-6378,Drug X,58.1,Male,White,Not Hispanic or Latino,75.9,157.4,29.3,161.1,89.7,95.3,18.5,11.3
+SUBJ-5564,Drug X,59.0,Female,White,Not Hispanic or Latino,74.1,167.8,25.6,150.8,65.8,50.1,30.6,9.8
+SUBJ-2137,Drug X,50.3,Female,White,Hispanic or Latino,84.3,166.9,29.6,115.6,85.0,64.8,25.5,4.8
+SUBJ-5573,Drug X,58.2,Male,Black or African American,Not Hispanic or Latino,69.7,194.3,32.1,159.8,91.3,76.4,38.6,4.2
+SUBJ-6753,Drug X,63.0,Female,White,Not Hispanic or Latino,98.8,174.3,18.3,140.6,77.8,79.0,40.6,0.5
+SUBJ-9346,Drug X,72.5,Male,White,Not Hispanic or Latino,82.0,156.2,34.3,147.4,89.0,70.8,15.4,12.6
+SUBJ-7548,Drug X,67.6,Male,White,Not Hispanic or Latino,81.9,164.4,26.8,161.4,110.1,71.3,31.8,7.1
+SUBJ-6425,Drug X,79.5,Male,Black or African American,Not Hispanic or Latino,77.1,180.2,30.6,115.0,81.0,76.9,41.0,3.8
+SUBJ-1452,Drug X,50.3,Male,White,Hispanic or Latino,84.3,190.9,34.5,134.4,85.9,69.2,30.5,10.1
+SUBJ-2889,Drug X,66.7,Male,White,Not Hispanic or Latino,94.4,154.1,21.6,125.4,74.6,88.7,37.8,2.1
+SUBJ-5279,Drug X,59.8,Female,White,Not Hispanic or Latino,69.0,151.2,25.0,106.8,83.8,82.1,34.8,6.9
+SUBJ-3925,Drug X,79.9,Male,White,Not Hispanic or Latino,72.1,188.7,27.1,141.2,86.6,82.5,34.7,4.9
+SUBJ-5349,Drug X,49.9,Female,White,Not Hispanic or Latino,77.4,173.9,24.6,180.2,83.9,60.4,29.8,7.7
+SUBJ-1626,Drug X,49.6,Male,White,Not Hispanic or Latino,61.8,161.3,37.2,101.9,71.8,71.0,22.3,5.3
+SUBJ-2776,Drug X,52.0,Male,White,Not Hispanic or Latino,69.7,175.3,24.2,134.4,84.1,68.4,23.0,0.5
+SUBJ-8119,Drug X,36.8,Male,Black or African American,Hispanic or Latino,74.9,145.0,25.7,146.5,96.6,59.9,37.7,5.8
+SUBJ-6663,Drug X,52.7,Female,White,Not Hispanic or Latino,95.1,170.0,29.5,137.2,86.5,76.3,32.2,9.2
+SUBJ-6139,Drug X,50.4,Male,White,Not Hispanic or Latino,85.9,173.3,22.5,133.0,91.6,65.5,30.9,5.4
+SUBJ-8149,Drug X,59.5,Female,White,Not Hispanic or Latino,84.9,179.2,26.5,111.6,79.6,79.9,28.6,8.2
+SUBJ-9379,Drug X,61.4,Female,Other,Hispanic or Latino,94.8,159.9,30.1,139.2,89.5,59.2,29.6,1.8
+SUBJ-2894,Drug X,76.8,Male,White,Not Hispanic or Latino,79.9,170.9,26.8,121.4,84.8,92.6,40.4,5.4
+SUBJ-7311,Drug X,67.5,Male,Black or African American,Not Hispanic or Latino,87.9,160.7,28.0,95.6,72.5,61.2,29.3,3.3
+SUBJ-4114,Drug X,52.2,Male,White,Not Hispanic or Latino,80.5,172.6,25.9,156.5,85.2,74.6,21.3,8.1
+SUBJ-5173,Drug X,49.0,Female,White,Not Hispanic or Latino,86.0,161.0,20.9,152.3,72.1,81.5,37.9,5.6
+SUBJ-1727,Drug X,62.9,Male,White,Not Hispanic or Latino,73.3,165.9,30.1,135.9,75.7,65.2,30.4,7.9
+SUBJ-8144,Drug X,44.8,Female,Other,Not Hispanic or Latino,45.4,160.0,37.3,139.1,83.9,82.2,32.3,9.3
+SUBJ-1027,Drug X,76.3,Male,White,Not Hispanic or Latino,80.0,176.5,28.6,154.3,85.0,57.2,44.9,7.9
+SUBJ-9518,Drug X,69.8,Female,Black or African American,Not Hispanic or Latino,103.3,178.6,29.6,139.0,70.1,89.4,31.8,6.5
+SUBJ-9821,Drug X,53.3,Female,Asian,Hispanic or Latino,95.9,167.7,32.0,151.3,92.5,72.2,34.3,2.0
+SUBJ-4228,Drug X,40.9,Female,White,Not Hispanic or Latino,96.5,170.4,22.2,129.6,87.7,64.8,22.6,5.5
+SUBJ-6967,Drug X,71.5,Male,White,Not Hispanic or Latino,100.5,155.5,37.0,158.6,75.0,68.4,30.2,3.6
+SUBJ-8066,Drug X,56.9,Female,White,Not Hispanic or Latino,83.3,167.0,29.5,140.8,66.6,81.7,36.9,4.3
+SUBJ-2146,Drug X,70.4,Male,White,Not Hispanic or Latino,85.0,169.5,36.7,138.5,80.6,65.0,19.6,4.2
+SUBJ-6409,Drug X,42.1,Male,Black or African American,Not Hispanic or Latino,72.7,196.2,24.8,112.1,77.5,63.0,33.6,2.1
+SUBJ-6143,Drug X,52.0,Female,Asian,Not Hispanic or Latino,77.3,158.9,37.6,140.2,83.1,69.3,32.8,0.5
+SUBJ-3041,Drug X,58.1,Female,White,Not Hispanic or Latino,91.2,184.6,32.4,120.0,78.4,57.9,32.3,3.2
+SUBJ-5920,Drug X,58.5,Female,White,Not Hispanic or Latino,100.1,180.0,31.3,123.5,61.9,93.8,40.3,6.2
+SUBJ-9308,Drug X,53.5,Female,Black or African American,Not Hispanic or Latino,79.9,172.8,29.7,120.3,78.1,65.2,34.7,0.8
+SUBJ-6067,Drug X,64.2,Male,White,Not Hispanic or Latino,75.2,187.6,27.3,115.8,78.9,82.0,43.8,5.6
+SUBJ-7691,Drug X,47.3,Male,Black or African American,Not Hispanic or Latino,82.0,173.7,34.5,173.2,88.3,74.5,24.1,12.2
+SUBJ-6344,Drug X,56.6,Female,White,Not Hispanic or Latino,91.0,173.9,29.2,159.0,75.0,60.2,33.1,9.1
+SUBJ-7592,Drug X,59.2,Male,White,Not Hispanic or Latino,60.3,169.5,18.7,169.6,98.8,71.9,32.7,11.3
+SUBJ-5844,Drug X,63.1,Male,White,Not Hispanic or Latino,47.6,182.2,22.9,113.0,62.9,81.4,23.4,6.9
+SUBJ-3085,Drug X,65.1,Male,White,Not Hispanic or Latino,73.7,181.0,27.6,136.3,95.1,69.7,39.7,9.6
+SUBJ-4143,Drug X,46.8,Male,White,Not Hispanic or Latino,63.7,163.7,30.0,111.7,79.8,86.3,50.6,3.0
+SUBJ-7888,Drug X,42.7,Male,White,Not Hispanic or Latino,74.4,156.8,28.2,122.5,90.6,84.3,31.9,3.2
+SUBJ-7211,Drug X,70.8,Male,White,Not Hispanic or Latino,79.8,168.0,34.6,118.5,82.8,83.0,36.0,0.5
+SUBJ-3851,Drug X,61.3,Male,Black or African American,Not Hispanic or Latino,75.2,162.0,18.7,157.3,93.4,66.5,32.7,9.7
+SUBJ-5930,Drug X,50.5,Male,Asian,Hispanic or Latino,103.8,169.4,29.2,127.9,78.1,59.0,26.3,10.9
+SUBJ-7653,Drug X,73.5,Female,White,Hispanic or Latino,86.9,182.4,19.4,154.2,71.0,64.6,17.4,3.6
+SUBJ-9977,Drug X,59.2,Male,White,Hispanic or Latino,86.5,165.4,32.3,145.9,96.2,74.4,26.4,4.6
+SUBJ-1006,Drug X,69.8,Male,White,Not Hispanic or Latino,91.3,169.6,28.0,176.5,80.9,78.5,20.9,2.9
+SUBJ-5978,Drug X,58.7,Female,White,Not Hispanic or Latino,64.9,170.6,30.6,108.4,84.2,45.9,45.6,6.8
+SUBJ-5700,Drug X,78.6,Male,White,Hispanic or Latino,97.6,178.5,24.2,157.7,94.3,71.9,31.1,9.4
+SUBJ-4443,Drug X,75.6,Female,White,Not Hispanic or Latino,80.9,147.5,34.9,155.6,71.7,73.9,29.2,0.5
+SUBJ-8043,Drug X,55.5,Female,White,Not Hispanic or Latino,92.1,163.9,33.7,117.5,88.0,68.7,39.1,6.9
+SUBJ-6279,Drug X,67.7,Male,White,Not Hispanic or Latino,65.9,172.1,31.4,153.1,76.1,87.5,23.0,4.5
+SUBJ-8618,Drug X,64.5,Male,White,Not Hispanic or Latino,58.7,182.0,27.9,141.1,80.7,77.1,25.9,5.9
+SUBJ-8238,Drug X,71.7,Female,White,Hispanic or Latino,94.3,165.1,31.4,130.9,82.7,87.7,32.5,7.1
+SUBJ-8244,Drug X,48.4,Female,Other,Not Hispanic or Latino,87.6,151.2,25.0,120.2,67.0,69.4,40.2,4.8
+SUBJ-4501,Drug X,64.9,Male,White,Not Hispanic or Latino,68.5,176.2,32.8,122.1,74.2,83.2,36.0,5.1
+SUBJ-9375,Drug X,68.6,Male,White,Not Hispanic or Latino,69.0,163.6,36.7,171.9,95.5,91.6,34.0,4.8
+SUBJ-8752,Drug X,40.4,Male,White,Not Hispanic or Latino,98.9,158.1,33.9,135.0,90.9,87.7,32.6,8.9
+SUBJ-3780,Drug X,46.2,Female,White,Not Hispanic or Latino,64.2,163.8,24.9,149.1,81.4,58.9,35.2,7.0
+SUBJ-2389,Drug X,37.6,Male,Black or African American,Not Hispanic or Latino,106.6,168.2,30.3,120.8,84.4,69.0,33.6,6.3
+SUBJ-5649,Drug X,55.3,Female,White,Not Hispanic or Latino,68.5,164.0,22.0,121.0,79.1,67.9,23.8,1.1
+SUBJ-9445,Drug X,65.2,Female,Other,Hispanic or Latino,91.6,147.9,31.4,154.5,95.6,77.9,32.4,4.2
+SUBJ-6491,Drug X,73.0,Male,White,Not Hispanic or Latino,77.1,179.0,30.8,110.7,80.0,80.2,23.4,8.6
+SUBJ-2530,Drug X,58.7,Male,White,Not Hispanic or Latino,91.0,182.7,19.2,127.5,84.3,61.9,32.6,5.6
+SUBJ-4848,Drug X,74.3,Male,Black or African American,Not Hispanic or Latino,73.8,176.5,22.7,135.6,93.5,72.8,28.2,7.8
+SUBJ-6085,Drug X,44.2,Male,White,Not Hispanic or Latino,79.6,158.6,27.1,137.0,74.2,47.8,52.3,11.7
+SUBJ-4680,Drug X,41.0,Male,White,Not Hispanic or Latino,82.6,168.0,27.0,131.8,97.6,89.3,31.7,9.1
+SUBJ-4262,Drug X,57.4,Male,White,Not Hispanic or Latino,67.0,169.9,22.5,142.1,66.7,65.9,20.8,5.8
+SUBJ-3414,Drug X,61.8,Female,White,Not Hispanic or Latino,93.1,176.0,30.4,147.5,98.3,72.7,30.9,3.7
+SUBJ-1400,Drug X,57.7,Male,Asian,Not Hispanic or Latino,74.3,176.7,29.8,148.2,78.3,68.3,36.2,0.5
+SUBJ-1757,Drug X,37.3,Male,White,Hispanic or Latino,78.6,162.7,27.5,117.3,79.6,85.8,45.4,4.9
+SUBJ-5011,Drug X,57.1,Female,White,Not Hispanic or Latino,67.1,170.8,24.7,129.9,63.1,45.0,27.3,4.4
+SUBJ-8784,Drug X,45.0,Female,White,Not Hispanic or Latino,45.0,174.6,33.7,156.5,77.5,71.8,19.3,6.9
+SUBJ-2193,Drug X,64.7,Female,White,Not Hispanic or Latino,79.1,184.6,36.8,151.1,71.6,70.7,38.5,5.0
+SUBJ-8461,Drug X,61.7,Female,White,Not Hispanic or Latino,118.2,177.0,26.1,110.3,75.9,66.6,21.0,4.4
+SUBJ-7790,Drug X,48.6,Male,White,Not Hispanic or Latino,93.8,177.9,25.4,141.3,80.6,92.7,28.5,0.5
+SUBJ-4185,Drug X,52.9,Male,White,Hispanic or Latino,81.7,170.8,31.0,99.4,91.6,61.4,29.9,2.2
+SUBJ-7291,Drug X,47.4,Female,Black or African American,Hispanic or Latino,78.1,184.1,26.7,135.8,84.1,81.3,31.4,7.2
+SUBJ-9099,Drug X,57.4,Female,White,Not Hispanic or Latino,82.3,174.1,27.8,169.2,85.1,76.3,37.5,11.5
+SUBJ-7547,Drug X,67.6,Male,White,Hispanic or Latino,90.2,161.4,32.2,117.9,71.0,87.1,26.5,5.2
+SUBJ-4997,Drug X,48.1,Female,Asian,Not Hispanic or Latino,64.3,184.0,19.0,120.0,73.2,64.0,29.8,6.6
+SUBJ-3417,Drug X,63.0,Male,White,Not Hispanic or Latino,98.7,177.0,35.1,148.8,100.0,63.2,31.9,8.8
+SUBJ-1090,Drug X,52.7,Male,White,Not Hispanic or Latino,92.7,165.6,28.9,107.2,74.6,85.2,33.2,2.7
+SUBJ-2746,Drug X,50.1,Male,White,Hispanic or Latino,92.8,165.2,26.4,123.6,98.6,77.1,32.8,6.8
+SUBJ-7965,Drug X,56.9,Male,White,Not Hispanic or Latino,88.6,173.0,28.1,145.7,79.6,53.5,35.5,2.9
+SUBJ-4585,Drug X,47.6,Male,White,Not Hispanic or Latino,82.3,174.6,28.3,123.6,82.0,65.5,38.8,8.5
+SUBJ-3881,Drug X,52.5,Male,Other,Not Hispanic or Latino,92.1,172.0,19.8,130.8,92.7,76.6,35.1,6.0
+SUBJ-9486,Drug X,46.0,Female,White,Not Hispanic or Latino,90.9,173.1,36.0,148.4,94.7,82.1,35.6,6.5
+SUBJ-8611,Drug X,77.6,Male,White,Not Hispanic or Latino,76.7,187.0,28.7,142.6,80.9,63.8,19.3,2.8
+SUBJ-1822,Drug X,58.4,Male,Black or African American,Hispanic or Latino,73.4,180.7,30.7,139.8,78.1,45.0,32.4,8.0
+SUBJ-5082,Drug X,51.0,Female,White,Not Hispanic or Latino,83.5,171.9,33.3,128.9,81.4,78.3,35.8,12.8
+SUBJ-2988,Drug X,60.1,Female,White,Not Hispanic or Latino,105.2,179.4,23.4,141.7,85.4,57.4,37.8,2.0
+SUBJ-8478,Drug X,56.9,Female,White,Hispanic or Latino,63.4,159.7,30.9,132.8,90.9,47.8,26.5,4.3
+SUBJ-3184,Drug X,55.8,Female,Other,Not Hispanic or Latino,60.0,174.0,27.2,143.2,82.0,45.0,26.7,6.3
+SUBJ-8612,Drug X,64.1,Female,White,Hispanic or Latino,84.5,188.1,32.7,126.1,88.2,81.8,27.4,8.3
+SUBJ-9702,Drug X,65.6,Male,White,Not Hispanic or Latino,82.8,167.8,18.0,131.7,98.4,73.5,36.3,3.5
+SUBJ-6198,Drug X,52.7,Male,White,Not Hispanic or Latino,84.6,161.5,28.0,117.2,85.8,69.3,40.3,0.5
+SUBJ-8251,Drug X,52.2,Male,White,Not Hispanic or Latino,85.7,163.5,25.5,134.4,85.1,88.7,28.7,10.3
+SUBJ-9270,Drug X,55.2,Male,White,Hispanic or Latino,78.7,159.1,30.7,120.4,66.8,79.6,39.3,8.2
+SUBJ-7991,Drug X,35.0,Male,White,Not Hispanic or Latino,104.3,162.2,30.9,114.9,55.7,91.4,33.0,0.5
+SUBJ-9976,Drug X,42.8,Female,Black or African American,Not Hispanic or Latino,58.0,166.3,25.0,139.7,85.9,55.3,31.0,3.4
+SUBJ-8305,Drug X,71.7,Male,White,Not Hispanic or Latino,69.6,155.9,24.9,138.8,81.1,71.6,30.3,11.0
+SUBJ-3607,Drug X,74.4,Male,White,Not Hispanic or Latino,80.5,170.2,27.9,149.1,76.9,52.6,38.0,10.6
+SUBJ-8777,Drug X,55.5,Male,Black or African American,Not Hispanic or Latino,57.4,179.0,24.0,127.2,84.4,69.2,34.6,8.8
+SUBJ-8373,Drug X,63.8,Female,Asian,Not Hispanic or Latino,79.4,160.9,32.7,142.3,81.4,69.0,50.2,4.9
+SUBJ-5246,Drug X,61.1,Male,White,Hispanic or Latino,106.9,185.2,26.7,144.9,93.3,79.5,25.2,5.8
+SUBJ-5050,Drug X,80.0,Female,White,Not Hispanic or Latino,82.3,175.1,18.0,143.0,82.9,72.5,36.1,5.0
+SUBJ-5543,Drug X,69.2,Male,White,Not Hispanic or Latino,85.5,180.3,26.6,120.1,74.5,79.5,27.8,9.4
+SUBJ-9540,Drug X,56.7,Male,Other,Not Hispanic or Latino,63.1,163.4,23.3,137.7,91.9,80.4,25.0,2.4
+SUBJ-8939,Drug X,48.4,Male,Asian,Hispanic or Latino,72.8,178.5,20.3,141.6,79.8,97.9,31.9,2.7
+SUBJ-4919,Drug X,41.9,Female,White,Not Hispanic or Latino,76.4,159.1,22.3,135.1,87.3,68.2,33.1,9.0
+SUBJ-5499,Drug X,60.0,Male,Black or African American,Not Hispanic or Latino,77.2,178.9,29.0,97.4,77.2,60.7,55.0,5.3
+SUBJ-8206,Drug X,50.4,Female,White,Not Hispanic or Latino,101.2,171.7,35.1,137.9,75.5,75.0,30.5,10.3
+SUBJ-2269,Drug X,43.8,Male,White,Not Hispanic or Latino,90.4,175.5,30.1,174.8,82.8,62.4,23.0,3.1
+SUBJ-5681,Drug X,51.5,Male,White,Not Hispanic or Latino,65.3,158.2,25.5,128.5,82.1,89.8,34.2,5.3
+SUBJ-4841,Drug X,47.2,Female,Black or African American,Not Hispanic or Latino,85.7,161.0,30.8,121.9,86.8,68.6,15.4,2.3
+SUBJ-5451,Drug X,74.9,Female,White,Not Hispanic or Latino,89.5,176.0,26.2,141.7,79.3,65.2,31.3,5.5
+SUBJ-6502,Drug X,66.8,Female,Black or African American,Not Hispanic or Latino,99.1,160.5,25.0,140.6,63.6,66.3,32.1,0.5
+SUBJ-6238,Drug X,57.9,Female,Black or African American,Not Hispanic or Latino,105.7,174.6,22.7,156.5,77.7,80.6,38.4,3.8
+SUBJ-9849,Drug X,72.8,Female,Black or African American,Not Hispanic or Latino,66.8,156.3,19.7,112.4,89.9,70.1,39.8,0.5
+SUBJ-2320,Drug X,58.8,Female,White,Not Hispanic or Latino,69.8,178.5,26.6,148.2,79.0,64.3,28.0,7.9
+SUBJ-3267,Drug X,49.4,Female,White,Not Hispanic or Latino,63.1,157.7,29.3,145.6,79.5,92.0,30.8,8.0
+SUBJ-3471,Drug X,73.2,Female,White,Not Hispanic or Latino,78.5,175.5,28.0,132.4,91.9,61.7,25.9,0.5
+SUBJ-4788,Drug X,63.4,Female,White,Not Hispanic or Latino,89.0,176.3,26.4,141.1,74.9,72.4,23.0,10.2
+SUBJ-7275,Drug X,47.6,Male,White,Not Hispanic or Latino,96.8,163.0,23.8,153.5,66.6,79.8,34.5,14.2
+SUBJ-3503,Drug X,56.1,Female,Asian,Not Hispanic or Latino,80.9,175.8,31.5,150.7,80.4,52.4,21.8,5.7
+SUBJ-4505,Drug X,49.2,Male,White,Not Hispanic or Latino,77.2,172.6,21.9,114.4,77.2,77.8,28.7,3.3
+SUBJ-2052,Drug X,44.2,Female,White,Not Hispanic or Latino,84.3,164.6,32.4,149.8,72.3,59.3,24.0,15.4
+SUBJ-7797,Placebo,44.8,Male,Black or African American,Not Hispanic or Latino,107.9,178.6,31.3,140.0,78.8,75.9,23.9,6.1
+SUBJ-7678,Placebo,58.2,Female,White,Not Hispanic or Latino,75.0,178.1,30.4,119.7,95.4,73.4,36.3,2.7
+SUBJ-6421,Placebo,59.8,Male,Black or African American,Hispanic or Latino,62.7,158.4,36.6,135.8,91.8,76.6,21.0,3.0
+SUBJ-9890,Placebo,71.5,Male,White,Not Hispanic or Latino,74.4,177.3,29.7,110.4,85.7,68.3,46.1,7.6
+SUBJ-8633,Placebo,61.6,Male,Asian,Not Hispanic or Latino,85.1,185.3,26.6,154.0,66.9,72.7,25.8,10.0
+SUBJ-7812,Placebo,53.0,Female,White,Not Hispanic or Latino,82.9,189.0,23.9,136.5,81.5,57.3,30.2,6.5
+SUBJ-2020,Placebo,48.5,Male,White,Hispanic or Latino,76.1,198.7,29.7,103.2,76.1,68.2,34.6,7.9
+SUBJ-4388,Placebo,54.6,Female,Black or African American,Not Hispanic or Latino,53.4,161.0,18.0,129.6,85.3,88.7,27.5,7.6
+SUBJ-7883,Placebo,47.9,Male,Black or African American,Not Hispanic or Latino,89.1,198.2,27.6,143.3,73.9,75.8,33.1,10.5
+SUBJ-7381,Placebo,58.5,Male,White,Hispanic or Latino,111.6,166.5,27.5,129.0,71.7,71.7,36.6,0.5
+SUBJ-1320,Placebo,52.4,Male,White,Not Hispanic or Latino,89.0,164.1,21.7,130.0,61.4,94.8,39.7,7.8
+SUBJ-7232,Placebo,43.1,Male,White,Hispanic or Latino,91.1,173.3,23.9,113.0,94.2,55.7,38.3,8.9
+SUBJ-8814,Placebo,70.6,Female,Other,Not Hispanic or Latino,90.6,164.2,32.5,145.2,78.0,58.7,30.6,0.8
+SUBJ-1096,Placebo,53.0,Male,Black or African American,Not Hispanic or Latino,88.0,174.0,29.7,123.3,83.6,92.6,30.8,2.4
+SUBJ-6763,Placebo,45.3,Female,Black or African American,Hispanic or Latino,96.0,156.8,29.0,96.2,82.0,72.6,50.8,2.5
+SUBJ-5892,Placebo,56.3,Male,White,Not Hispanic or Latino,87.9,167.6,30.0,128.3,71.3,69.1,39.6,2.9
+SUBJ-7389,Placebo,58.7,Male,White,Not Hispanic or Latino,77.3,182.9,29.0,152.7,69.4,57.6,24.6,3.8
+SUBJ-7865,Placebo,40.5,Male,White,Not Hispanic or Latino,70.1,169.4,34.7,128.0,71.9,77.4,32.8,6.3
+SUBJ-9818,Placebo,61.3,Male,Black or African American,Hispanic or Latino,78.3,171.4,29.1,166.3,74.8,78.5,29.3,8.5
+SUBJ-9947,Placebo,47.5,Female,White,Not Hispanic or Latino,86.7,174.8,21.2,142.7,85.7,58.9,30.9,9.3
+SUBJ-4613,Placebo,75.1,Female,Asian,Not Hispanic or Latino,77.3,181.7,36.7,141.1,74.0,70.3,22.2,2.6
+SUBJ-8999,Placebo,63.2,Male,White,Not Hispanic or Latino,86.7,153.4,30.4,132.7,99.5,68.0,28.7,2.5
+SUBJ-4595,Placebo,54.0,Male,White,Not Hispanic or Latino,88.6,175.8,25.6,133.8,92.3,75.1,46.5,10.1
+SUBJ-5471,Placebo,50.5,Male,White,Not Hispanic or Latino,94.5,167.3,22.2,130.3,90.1,58.6,36.6,7.8
+SUBJ-8140,Placebo,57.0,Male,White,Not Hispanic or Latino,101.2,171.7,30.5,129.6,80.8,87.0,12.1,5.8
+SUBJ-1475,Placebo,64.1,Male,White,Not Hispanic or Latino,83.2,180.6,27.9,144.6,97.1,83.0,41.7,7.2
+SUBJ-7371,Placebo,57.7,Male,White,Not Hispanic or Latino,62.4,158.1,36.4,118.2,79.8,67.6,40.7,5.4
+SUBJ-6507,Placebo,55.8,Male,White,Not Hispanic or Latino,76.8,159.9,26.8,115.6,81.7,69.4,29.1,7.3
+SUBJ-7624,Placebo,58.6,Male,Black or African American,Not Hispanic or Latino,82.7,150.6,24.3,114.8,83.7,70.4,37.7,4.3
+SUBJ-3704,Placebo,52.0,Male,White,Not Hispanic or Latino,54.5,164.5,33.0,171.8,89.0,62.7,25.1,6.4
+SUBJ-8657,Placebo,54.6,Male,White,Hispanic or Latino,102.8,183.3,33.1,144.5,88.4,66.7,28.2,0.5
+SUBJ-3091,Placebo,37.1,Female,White,Not Hispanic or Latino,84.1,168.8,29.3,140.5,77.2,68.8,44.0,3.1
+SUBJ-1441,Placebo,67.7,Male,White,Not Hispanic or Latino,87.7,156.6,31.9,116.0,76.7,91.4,29.8,3.1
+SUBJ-7455,Placebo,61.0,Female,Black or African American,Not Hispanic or Latino,102.5,165.1,28.3,146.2,88.4,83.4,17.0,4.2
+SUBJ-1444,Placebo,50.3,Male,White,Not Hispanic or Latino,72.5,155.1,29.7,132.9,89.2,83.2,31.5,2.3
+SUBJ-2375,Placebo,77.0,Male,Black or African American,Not Hispanic or Latino,90.6,158.7,34.3,138.9,78.1,76.4,31.4,3.6
+SUBJ-8022,Placebo,58.9,Male,White,Not Hispanic or Latino,80.4,173.9,31.6,117.4,66.1,58.6,41.6,0.5
+SUBJ-3223,Placebo,47.6,Male,White,Not Hispanic or Latino,79.2,158.3,27.7,137.9,79.9,71.5,32.1,7.4
+SUBJ-8564,Placebo,66.6,Female,White,Hispanic or Latino,70.4,181.1,35.3,127.4,88.2,83.6,28.6,5.2
+SUBJ-3977,Placebo,62.0,Male,White,Not Hispanic or Latino,107.0,169.3,18.0,121.2,100.1,56.9,40.4,0.5
+SUBJ-1823,Placebo,61.9,Female,White,Not Hispanic or Latino,76.4,170.9,38.8,148.2,70.0,79.6,33.0,2.6
+SUBJ-5262,Placebo,53.7,Female,Black or African American,Not Hispanic or Latino,92.5,167.2,20.0,107.3,77.7,99.9,26.0,6.7
+SUBJ-6363,Placebo,62.5,Male,White,Hispanic or Latino,53.9,177.7,25.4,145.2,78.1,84.7,41.2,3.6
+SUBJ-4467,Placebo,55.4,Male,White,Not Hispanic or Latino,99.7,177.8,28.3,147.3,95.6,89.0,33.5,3.1
+SUBJ-8449,Placebo,63.6,Female,White,Not Hispanic or Latino,97.8,173.4,27.8,119.2,81.7,74.6,32.0,5.2
+SUBJ-6355,Placebo,39.0,Male,White,Not Hispanic or Latino,83.5,175.6,33.5,120.2,72.9,83.6,33.4,6.7
+SUBJ-6529,Placebo,53.7,Female,White,Not Hispanic or Latino,78.6,167.9,23.2,131.0,87.6,63.4,23.4,0.5
+SUBJ-5558,Placebo,75.2,Male,White,Not Hispanic or Latino,88.0,175.4,29.8,140.1,78.0,81.6,27.8,7.4
+SUBJ-7906,Placebo,50.3,Male,White,Not Hispanic or Latino,116.3,166.6,25.6,132.2,69.8,79.9,32.0,2.7
+SUBJ-5133,Placebo,52.0,Male,White,Not Hispanic or Latino,55.6,170.0,30.0,142.8,73.1,75.5,30.4,5.4
+SUBJ-2341,Placebo,53.5,Male,White,Not Hispanic or Latino,93.7,167.3,28.2,166.7,99.3,87.8,42.2,5.4
+SUBJ-8705,Placebo,45.9,Female,Asian,Not Hispanic or Latino,68.3,165.4,29.0,125.9,85.8,65.5,33.7,3.7
+SUBJ-1317,Placebo,35.9,Male,White,Not Hispanic or Latino,81.7,163.1,25.8,104.1,83.1,69.8,38.8,1.9
+SUBJ-1853,Placebo,55.7,Female,White,Not Hispanic or Latino,78.3,174.7,25.9,149.9,79.5,73.1,32.1,4.5
+SUBJ-6733,Placebo,59.4,Male,Other,Not Hispanic or Latino,75.6,183.1,29.9,165.3,84.9,59.6,40.5,11.2
+SUBJ-4673,Placebo,57.5,Male,White,Not Hispanic or Latino,81.8,181.7,33.2,142.1,84.8,74.7,35.2,0.7
+SUBJ-2124,Placebo,56.6,Male,White,Not Hispanic or Latino,65.0,157.4,25.5,115.4,84.9,51.4,32.1,11.4
+SUBJ-1659,Placebo,58.4,Male,White,Not Hispanic or Latino,97.4,182.9,24.2,132.8,83.1,84.6,31.9,4.6
+SUBJ-1508,Placebo,68.2,Male,White,Not Hispanic or Latino,55.1,166.8,31.6,114.9,90.7,72.6,24.4,5.6
+SUBJ-5051,Placebo,56.1,Male,White,Not Hispanic or Latino,90.1,176.0,28.3,146.6,82.2,65.7,36.1,1.7
+SUBJ-4266,Placebo,52.3,Female,Other,Hispanic or Latino,77.1,160.9,32.7,110.7,72.2,62.0,31.7,2.8
+SUBJ-1333,Placebo,55.2,Male,Black or African American,Not Hispanic or Latino,64.4,171.4,24.0,129.6,75.9,69.2,28.0,3.7
+SUBJ-3496,Placebo,63.8,Male,Black or African American,Not Hispanic or Latino,85.0,173.1,19.6,116.9,62.2,80.3,40.9,1.8
+SUBJ-4908,Placebo,72.1,Female,Black or African American,Not Hispanic or Latino,58.6,155.2,25.8,137.3,102.3,78.6,22.0,4.8
+SUBJ-3068,Placebo,51.7,Female,White,Not Hispanic or Latino,82.6,176.1,24.7,128.4,90.6,63.5,28.6,4.1
+SUBJ-8758,Placebo,59.0,Male,White,Not Hispanic or Latino,60.7,183.5,28.1,138.2,73.7,61.8,40.2,12.0
+SUBJ-2874,Placebo,61.4,Male,Asian,Not Hispanic or Latino,88.9,168.3,25.3,135.4,79.2,79.9,34.5,1.4
+SUBJ-4571,Placebo,48.1,Female,Other,Hispanic or Latino,68.1,183.6,32.2,117.2,75.6,63.3,31.6,5.9
+SUBJ-8619,Placebo,58.2,Male,White,Not Hispanic or Latino,75.2,168.1,27.1,146.3,97.4,72.7,34.0,6.4
+SUBJ-5198,Placebo,43.3,Male,Asian,Hispanic or Latino,86.4,178.5,29.3,134.1,67.8,73.5,33.4,1.8
+SUBJ-7043,Placebo,40.3,Male,White,Not Hispanic or Latino,70.4,147.8,29.3,117.2,83.1,75.7,19.9,7.9
+SUBJ-3749,Placebo,61.7,Female,White,Not Hispanic or Latino,81.1,194.2,29.5,175.3,80.9,82.3,29.2,4.1
+SUBJ-3683,Placebo,54.2,Male,White,Not Hispanic or Latino,59.3,185.0,28.4,143.6,90.3,56.8,44.9,0.5
+SUBJ-6096,Placebo,60.0,Female,White,Not Hispanic or Latino,91.5,167.2,31.1,132.2,81.0,49.1,26.7,7.8
+SUBJ-1420,Placebo,57.8,Male,White,Not Hispanic or Latino,108.5,150.3,24.5,160.5,64.4,65.2,29.5,1.6
+SUBJ-6111,Placebo,48.2,Female,White,Not Hispanic or Latino,123.9,172.9,35.5,168.2,79.5,93.6,27.7,1.8
+SUBJ-7149,Placebo,57.5,Male,White,Not Hispanic or Latino,83.4,155.6,27.3,132.4,72.3,96.3,31.3,7.9
+SUBJ-7498,Placebo,45.7,Male,White,Hispanic or Latino,93.8,174.4,21.9,141.3,82.8,94.0,27.3,4.3
+SUBJ-4249,Placebo,71.9,Female,White,Not Hispanic or Latino,55.3,174.1,29.4,117.2,96.3,69.7,35.9,8.7
+SUBJ-2245,Placebo,44.4,Male,Other,Not Hispanic or Latino,104.5,160.6,24.2,132.4,64.6,50.6,33.6,9.7
+SUBJ-4978,Placebo,56.0,Male,White,Hispanic or Latino,93.6,181.2,31.8,131.4,74.0,45.0,38.2,3.2
+SUBJ-2669,Placebo,47.6,Male,White,Not Hispanic or Latino,74.7,178.1,39.5,138.3,76.5,64.6,23.6,8.3
+SUBJ-5941,Placebo,63.7,Male,White,Not Hispanic or Latino,100.6,179.8,24.6,141.0,78.2,69.6,29.3,2.9
+SUBJ-2983,Placebo,54.7,Male,White,Not Hispanic or Latino,78.2,170.1,30.2,145.1,89.4,87.6,30.2,13.3
+SUBJ-1672,Placebo,52.8,Female,Black or African American,Not Hispanic or Latino,75.1,155.8,19.7,139.3,80.3,82.4,35.6,3.1
+SUBJ-6688,Placebo,66.5,Male,White,Not Hispanic or Latino,89.1,179.8,30.8,113.2,86.2,74.7,25.7,9.1
+SUBJ-9728,Placebo,58.3,Male,Black or African American,Not Hispanic or Latino,66.0,167.3,24.1,118.1,75.7,61.3,39.3,8.5
+SUBJ-8018,Placebo,63.2,Male,White,Not Hispanic or Latino,97.3,156.1,25.4,125.2,84.3,60.5,41.5,6.6
+SUBJ-7071,Placebo,48.2,Female,White,Not Hispanic or Latino,66.2,183.5,23.0,129.9,89.8,75.0,24.1,3.2
+SUBJ-2129,Placebo,44.0,Female,White,Not Hispanic or Latino,66.2,191.0,32.2,153.9,74.7,80.4,28.1,5.0
+SUBJ-9289,Placebo,59.1,Male,White,Not Hispanic or Latino,68.4,169.6,33.5,114.1,89.8,76.7,27.7,0.5
+SUBJ-6590,Placebo,54.8,Male,White,Not Hispanic or Latino,93.4,191.6,28.6,128.6,82.5,59.6,53.1,6.3
+SUBJ-1207,Placebo,64.3,Female,White,Not Hispanic or Latino,72.7,170.9,24.2,152.2,92.5,79.8,28.6,6.7
+SUBJ-7882,Placebo,57.2,Male,White,Not Hispanic or Latino,61.8,166.2,36.4,129.6,80.0,77.1,45.4,6.0
+SUBJ-9031,Placebo,60.1,Female,White,Not Hispanic or Latino,72.9,163.7,24.7,143.3,85.8,59.2,21.9,0.5
+SUBJ-2729,Placebo,41.8,Female,Other,Not Hispanic or Latino,81.5,186.4,18.0,132.5,81.6,62.6,24.1,1.1
+SUBJ-8102,Placebo,76.9,Female,White,Not Hispanic or Latino,64.3,162.2,30.8,139.6,81.0,80.3,26.5,2.9
+SUBJ-6934,Placebo,56.4,Male,White,Hispanic or Latino,64.7,177.4,23.0,130.9,84.6,69.2,25.2,6.5
+SUBJ-8532,Placebo,65.0,Female,White,Not Hispanic or Latino,113.7,164.4,33.4,147.0,87.4,91.1,29.9,6.5
+SUBJ-3506,Placebo,49.6,Female,White,Not Hispanic or Latino,69.1,165.4,26.6,107.2,69.5,78.0,26.3,4.9
+SUBJ-8135,Placebo,61.1,Male,White,Not Hispanic or Latino,77.2,180.3,31.5,128.5,96.3,66.2,25.4,7.7
+SUBJ-3885,Placebo,45.0,Male,Asian,Not Hispanic or Latino,76.5,166.2,35.5,140.3,63.4,71.9,41.3,1.9
+SUBJ-9548,Placebo,62.5,Male,Other,Not Hispanic or Latino,75.7,166.0,22.5,144.6,75.2,72.8,41.8,7.6
+SUBJ-5425,Placebo,54.4,Male,White,Not Hispanic or Latino,91.3,181.3,25.7,161.9,81.1,63.3,39.6,7.2
+SUBJ-9817,Placebo,58.3,Male,White,Not Hispanic or Latino,96.2,186.0,28.1,128.0,86.1,61.0,36.2,6.8
+SUBJ-8921,Placebo,65.0,Male,White,Hispanic or Latino,77.4,176.4,36.2,161.6,97.8,80.4,32.7,4.9
+SUBJ-8616,Placebo,45.7,Male,White,Not Hispanic or Latino,63.5,163.5,25.2,123.1,63.4,82.1,28.0,11.9
+SUBJ-8136,Placebo,51.2,Male,White,Not Hispanic or Latino,101.1,164.9,25.5,158.9,76.9,79.2,24.4,7.2
+SUBJ-5397,Placebo,62.6,Male,White,Not Hispanic or Latino,80.6,170.8,30.9,149.7,60.7,90.2,34.9,2.1
+SUBJ-6280,Placebo,79.0,Female,White,Not Hispanic or Latino,108.0,173.2,25.6,118.6,82.3,65.5,22.6,6.4
+SUBJ-5022,Placebo,56.6,Female,White,Hispanic or Latino,48.3,160.1,29.3,140.5,84.7,92.1,24.0,8.1
+SUBJ-2419,Placebo,63.9,Male,White,Hispanic or Latino,84.9,177.2,20.7,134.1,97.9,61.2,41.2,3.4
+SUBJ-5569,Placebo,56.9,Male,White,Not Hispanic or Latino,110.8,170.9,39.6,146.3,83.2,59.8,47.2,9.3
+SUBJ-8385,Placebo,77.4,Male,White,Hispanic or Latino,76.7,152.8,21.8,131.0,92.4,50.9,35.1,6.8
+SUBJ-4995,Placebo,40.5,Female,White,Not Hispanic or Latino,78.6,160.7,26.9,129.5,87.8,66.7,40.9,0.5
+SUBJ-8613,Placebo,58.9,Female,Asian,Hispanic or Latino,86.4,165.0,28.3,159.6,77.6,66.0,30.0,6.5
+SUBJ-6511,Placebo,41.7,Female,White,Not Hispanic or Latino,73.6,169.3,38.1,133.2,67.9,78.3,21.3,4.1
+SUBJ-1470,Placebo,32.9,Male,Black or African American,Not Hispanic or Latino,77.3,188.9,21.9,149.9,84.8,74.9,36.9,7.4
+SUBJ-9098,Placebo,61.0,Female,White,Not Hispanic or Latino,76.9,172.4,38.4,130.9,67.1,57.7,36.6,8.8
+SUBJ-6325,Placebo,59.4,Male,White,Not Hispanic or Latino,72.6,161.6,32.3,165.0,95.0,67.3,32.6,6.2
+SUBJ-3979,Placebo,55.2,Male,White,Not Hispanic or Latino,100.4,172.2,30.6,122.8,80.4,67.5,30.1,11.3
+SUBJ-8988,Placebo,56.9,Male,White,Not Hispanic or Latino,88.9,166.5,23.6,123.9,94.0,50.7,39.7,4.9
+SUBJ-4475,Placebo,80.0,Female,Asian,Not Hispanic or Latino,85.8,173.2,31.4,162.4,77.2,60.2,24.1,7.7
+SUBJ-6813,Placebo,55.4,Male,White,Not Hispanic or Latino,94.1,175.8,24.9,127.0,84.7,62.8,25.8,8.3
+SUBJ-5232,Placebo,63.1,Female,White,Not Hispanic or Latino,78.0,182.1,34.8,163.8,84.1,89.2,23.9,5.2
+SUBJ-6576,Placebo,51.5,Female,White,Hispanic or Latino,70.4,169.8,23.6,151.1,81.5,74.3,32.7,8.2
+SUBJ-5581,Placebo,61.0,Male,Other,Not Hispanic or Latino,73.0,186.4,27.9,132.2,77.7,79.9,23.3,3.4
+SUBJ-5526,Placebo,55.6,Male,White,Hispanic or Latino,82.0,179.1,25.7,102.4,85.9,54.0,26.5,4.0
+SUBJ-1166,Placebo,53.9,Female,Other,Not Hispanic or Latino,66.1,162.9,23.6,134.7,72.7,86.3,26.4,0.9
+SUBJ-9464,Placebo,76.2,Male,Asian,Not Hispanic or Latino,74.5,192.1,32.2,136.8,69.9,87.6,29.9,6.3
+SUBJ-4130,Placebo,69.8,Male,White,Not Hispanic or Latino,74.3,173.3,31.2,156.0,94.4,48.0,20.1,6.6
+SUBJ-2402,Placebo,59.4,Male,Black or African American,Not Hispanic or Latino,113.9,161.6,34.5,163.6,89.3,63.5,32.7,9.6
+SUBJ-4954,Placebo,35.0,Male,Other,Not Hispanic or Latino,45.0,186.5,19.6,122.7,82.7,77.9,42.0,8.3
+SUBJ-4937,Placebo,54.4,Male,White,Not Hispanic or Latino,79.3,190.8,33.8,149.4,98.7,79.7,33.1,4.5
+SUBJ-8800,Placebo,80.0,Male,White,Not Hispanic or Latino,107.9,169.7,41.0,148.8,79.3,63.9,44.3,1.4
+SUBJ-9041,Placebo,55.7,Male,White,Not Hispanic or Latino,83.8,165.0,26.2,154.3,95.2,68.3,42.7,7.0
+SUBJ-8342,Placebo,69.0,Male,White,Not Hispanic or Latino,93.3,168.3,38.0,144.0,83.8,64.8,38.2,9.4
+SUBJ-1282,Placebo,72.4,Female,White,Not Hispanic or Latino,83.5,177.1,27.2,100.0,71.8,73.3,32.6,8.1
+SUBJ-2524,Placebo,60.2,Female,White,Not Hispanic or Latino,72.0,182.8,21.6,132.2,100.5,86.4,32.2,9.3
+SUBJ-5820,Placebo,49.6,Female,White,Not Hispanic or Latino,48.4,175.7,27.0,114.2,91.9,62.7,38.1,4.8
+SUBJ-4630,Placebo,33.6,Male,White,Not Hispanic or Latino,85.1,171.0,33.7,131.4,80.8,84.0,28.9,3.9
+SUBJ-7625,Placebo,64.8,Female,White,Not Hispanic or Latino,70.4,185.0,24.3,152.6,89.3,62.6,16.9,2.9
+SUBJ-4986,Placebo,49.9,Male,Asian,Not Hispanic or Latino,70.0,166.9,25.5,140.5,78.0,61.8,35.9,5.3
+SUBJ-6016,Placebo,59.8,Male,Black or African American,Not Hispanic or Latino,74.5,180.3,31.5,155.7,90.3,81.8,23.0,5.2
+SUBJ-7046,Placebo,45.5,Female,White,Not Hispanic or Latino,108.2,167.1,28.5,141.2,58.1,83.1,24.3,6.2
+SUBJ-8753,Placebo,55.3,Female,White,Not Hispanic or Latino,118.1,174.3,31.4,111.6,71.8,82.2,32.0,5.0
+SUBJ-9698,Placebo,58.3,Female,White,Not Hispanic or Latino,85.3,168.9,29.7,90.0,91.8,56.2,31.2,5.0
+SUBJ-6632,Placebo,60.7,Female,Other,Not Hispanic or Latino,75.0,169.4,30.9,137.7,79.5,66.4,20.7,2.8
+SUBJ-7971,Placebo,46.9,Male,White,Not Hispanic or Latino,64.3,166.2,26.3,131.1,84.1,81.9,33.3,8.8
+SUBJ-6419,Placebo,70.0,Male,White,Not Hispanic or Latino,89.0,183.4,29.7,117.4,68.5,72.5,39.7,5.8
+SUBJ-6764,Placebo,52.0,Female,Asian,Not Hispanic or Latino,108.7,162.7,23.9,104.4,100.5,59.1,23.0,4.9
+SUBJ-8434,Placebo,41.3,Male,Asian,Not Hispanic or Latino,78.3,162.6,34.9,121.8,93.9,77.5,42.2,2.9
+SUBJ-5438,Placebo,56.9,Male,Black or African American,Not Hispanic or Latino,46.3,191.2,25.3,131.5,80.0,63.4,19.5,0.8
+SUBJ-6023,Placebo,58.3,Female,Black or African American,Not Hispanic or Latino,92.1,179.8,34.1,147.0,78.0,93.5,48.9,10.1
+SUBJ-5118,Placebo,59.6,Female,White,Not Hispanic or Latino,96.8,146.1,27.3,138.4,92.3,90.5,28.7,7.4
+SUBJ-4777,Placebo,71.6,Male,White,Hispanic or Latino,58.2,164.3,29.5,163.9,101.8,79.2,33.2,0.5
+SUBJ-2976,Placebo,55.6,Female,White,Not Hispanic or Latino,84.6,151.9,26.0,116.4,91.5,88.3,16.9,8.2
+SUBJ-4155,Placebo,56.8,Female,White,Not Hispanic or Latino,88.8,160.5,23.4,150.9,103.7,72.8,31.5,8.7
+SUBJ-6169,Placebo,47.0,Female,Black or African American,Not Hispanic or Latino,80.9,145.0,19.8,135.9,72.8,81.2,33.8,5.9
+SUBJ-2958,Placebo,66.2,Male,White,Not Hispanic or Latino,70.1,168.6,23.2,147.5,73.8,89.7,31.3,11.1
+SUBJ-9779,Placebo,59.8,Male,White,Not Hispanic or Latino,97.2,158.6,26.9,127.1,70.1,74.9,27.5,6.3
+SUBJ-4033,Placebo,53.8,Male,Asian,Not Hispanic or Latino,75.9,170.6,29.6,154.3,86.4,68.9,24.4,0.5
+SUBJ-4138,Placebo,39.0,Male,White,Not Hispanic or Latino,59.7,153.7,33.6,140.3,83.8,51.5,41.0,6.8
+SUBJ-4545,Placebo,72.4,Male,Other,Not Hispanic or Latino,51.3,170.8,26.3,122.8,80.5,71.0,32.2,6.4
+SUBJ-8933,Placebo,45.7,Male,Other,Not Hispanic or Latino,100.9,165.9,24.1,134.8,90.1,81.9,44.3,3.4
+SUBJ-5530,Placebo,52.1,Male,White,Hispanic or Latino,91.2,185.0,21.3,130.7,94.3,83.3,27.8,7.5
+SUBJ-9595,Placebo,61.6,Female,White,Not Hispanic or Latino,83.3,184.1,30.9,143.8,66.7,78.1,28.5,0.5
+SUBJ-5636,Placebo,46.0,Male,White,Hispanic or Latino,75.4,177.9,35.4,113.8,76.0,65.5,38.5,9.0
+SUBJ-2647,Placebo,43.1,Female,White,Hispanic or Latino,74.1,166.7,34.8,134.5,90.2,48.3,19.0,2.4
+SUBJ-4180,Placebo,36.8,Female,White,Not Hispanic or Latino,65.9,189.9,32.0,142.1,77.3,66.1,22.3,2.1
+SUBJ-5853,Placebo,65.2,Male,White,Not Hispanic or Latino,75.5,154.5,31.7,135.6,74.0,68.3,40.8,5.1
+SUBJ-4727,Placebo,52.5,Female,Other,Not Hispanic or Latino,50.2,156.0,37.0,159.2,92.2,68.2,22.6,7.0
+SUBJ-6912,Placebo,80.0,Male,White,Not Hispanic or Latino,71.0,169.2,30.2,148.9,69.1,79.4,17.4,6.1
+SUBJ-3939,Placebo,48.1,Male,Black or African American,Not Hispanic or Latino,77.3,192.5,31.7,134.9,79.0,95.8,46.9,2.9
+SUBJ-5952,Placebo,48.8,Female,White,Not Hispanic or Latino,91.1,168.0,26.9,138.9,85.3,73.5,20.8,3.7
+SUBJ-1231,Placebo,52.3,Male,White,Not Hispanic or Latino,81.4,168.2,21.7,140.3,76.3,69.4,33.5,1.5
+SUBJ-3073,Placebo,60.4,Female,Asian,Not Hispanic or Latino,93.9,155.6,25.1,142.3,89.8,68.9,32.6,4.7
+SUBJ-5494,Placebo,53.3,Male,White,Not Hispanic or Latino,102.2,179.5,28.5,102.1,76.3,73.5,10.0,9.3
+SUBJ-1745,Placebo,64.1,Female,White,Not Hispanic or Latino,97.9,179.5,28.8,129.6,96.1,62.1,29.9,5.5
+SUBJ-1893,Placebo,48.2,Male,White,Not Hispanic or Latino,89.1,177.9,38.1,108.3,80.7,73.4,35.6,8.5
+SUBJ-5786,Placebo,44.2,Female,Black or African American,Not Hispanic or Latino,82.2,163.7,28.9,158.0,88.7,77.4,34.8,10.6
+SUBJ-9042,Placebo,40.0,Male,White,Not Hispanic or Latino,67.3,162.9,34.4,133.9,89.5,74.5,39.2,3.4
+SUBJ-2680,Placebo,35.8,Female,White,Not Hispanic or Latino,93.1,157.1,26.3,131.5,75.7,77.5,28.9,4.8
+SUBJ-1200,Placebo,52.8,Female,White,Not Hispanic or Latino,107.2,170.8,26.9,151.1,61.5,77.2,37.7,13.1
+SUBJ-5658,Placebo,55.0,Male,Other,Not Hispanic or Latino,87.1,159.2,21.9,142.6,85.6,50.7,26.5,10.6
+SUBJ-8690,Placebo,51.7,Male,Asian,Not Hispanic or Latino,110.8,158.2,24.8,114.7,82.7,79.6,20.7,0.5
+SUBJ-8843,Placebo,70.4,Male,White,Not Hispanic or Latino,59.1,165.8,31.1,133.7,87.6,63.9,21.6,6.9
+SUBJ-8216,Placebo,70.3,Female,Black or African American,Not Hispanic or Latino,64.7,165.1,28.5,129.0,79.7,58.8,20.3,5.5
+SUBJ-6582,Placebo,54.7,Male,White,Not Hispanic or Latino,94.8,164.6,33.2,103.6,77.7,58.7,40.1,8.4
+SUBJ-4020,Placebo,40.1,Female,White,Hispanic or Latino,86.0,174.7,29.4,122.6,102.1,77.2,19.9,2.9
+SUBJ-1841,Placebo,52.3,Female,White,Not Hispanic or Latino,101.7,170.8,26.7,131.7,67.3,69.3,34.2,2.6
+SUBJ-5136,Placebo,52.0,Male,White,Not Hispanic or Latino,81.8,167.1,39.2,132.9,89.3,51.8,29.9,3.1
+SUBJ-8827,Placebo,51.4,Male,White,Not Hispanic or Latino,69.0,171.8,28.0,108.3,76.3,77.7,31.2,3.5
+SUBJ-2869,Placebo,51.0,Male,White,Not Hispanic or Latino,78.8,160.1,34.3,155.7,78.6,54.7,42.9,8.4
+SUBJ-2070,Placebo,51.5,Female,White,Not Hispanic or Latino,59.0,171.1,26.5,133.2,78.8,73.7,28.5,1.4
+SUBJ-7565,Placebo,54.1,Male,Black or African American,Not Hispanic or Latino,65.1,171.5,32.0,135.7,74.0,74.9,36.9,3.3
+SUBJ-9056,Placebo,51.6,Male,White,Hispanic or Latino,96.6,155.0,33.1,142.2,87.7,82.6,32.3,0.5
+SUBJ-2213,Placebo,60.1,Female,White,Not Hispanic or Latino,95.1,180.0,29.5,120.8,95.9,93.4,30.8,9.0
+SUBJ-1878,Placebo,61.6,Male,Asian,Not Hispanic or Latino,87.4,161.2,18.0,143.2,86.7,55.6,50.4,9.9
+SUBJ-3485,Placebo,48.9,Female,White,Not Hispanic or Latino,56.2,170.9,28.6,128.4,83.0,71.4,20.5,4.4
+SUBJ-3444,Placebo,70.7,Male,White,Not Hispanic or Latino,76.6,181.6,34.7,118.9,72.1,68.7,42.3,4.5
+SUBJ-2395,Placebo,48.2,Male,Black or African American,Not Hispanic or Latino,63.6,179.3,31.1,145.3,87.2,77.2,37.3,7.1
+SUBJ-5066,Placebo,41.8,Female,White,Not Hispanic or Latino,99.6,170.3,30.7,161.9,103.6,74.6,28.2,10.7
+SUBJ-2940,Placebo,61.8,Male,White,Not Hispanic or Latino,73.2,166.4,19.9,148.0,78.2,67.8,45.0,6.9
+SUBJ-7818,Placebo,49.8,Male,White,Not Hispanic or Latino,65.7,179.5,24.9,151.6,78.2,66.7,17.2,3.1
+SUBJ-4697,Placebo,61.2,Female,Asian,Not Hispanic or Latino,82.4,176.7,30.6,125.6,76.4,58.6,27.8,0.5
+SUBJ-9561,Placebo,34.0,Male,White,Not Hispanic or Latino,72.4,163.8,30.6,106.2,77.1,83.9,22.3,1.6
+SUBJ-8381,Placebo,71.9,Female,Asian,Not Hispanic or Latino,104.3,162.1,34.6,161.8,54.5,77.5,35.3,5.8
+SUBJ-8253,Placebo,64.7,Female,White,Not Hispanic or Latino,71.0,149.3,27.8,172.0,86.1,83.0,23.1,3.2
+SUBJ-5871,Placebo,43.0,Male,White,Not Hispanic or Latino,61.0,171.5,30.5,162.8,73.5,68.3,35.5,6.2
+SUBJ-8025,Placebo,43.2,Male,Black or African American,Hispanic or Latino,49.7,169.2,28.6,129.0,65.9,64.1,30.5,3.6
+SUBJ-6003,Placebo,74.7,Female,White,Not Hispanic or Latino,81.5,181.4,23.6,114.2,89.5,59.1,28.2,1.8
+SUBJ-1986,Placebo,50.6,Male,White,Not Hispanic or Latino,73.6,173.6,18.0,115.8,71.2,76.3,35.1,1.4
+SUBJ-2625,Placebo,49.7,Male,White,Not Hispanic or Latino,60.6,183.3,30.7,104.7,78.6,59.5,29.9,11.0
+SUBJ-4404,Placebo,35.3,Female,Black or African American,Not Hispanic or Latino,99.8,163.0,29.4,133.1,96.7,94.2,23.3,8.6
+SUBJ-4457,Placebo,54.5,Male,White,Not Hispanic or Latino,92.0,181.4,25.4,163.9,67.9,56.3,54.4,11.6
+SUBJ-5335,Placebo,55.7,Female,White,Hispanic or Latino,81.6,164.7,20.4,132.5,66.7,75.3,28.1,7.4
+SUBJ-2330,Placebo,65.2,Male,White,Not Hispanic or Latino,102.5,177.8,31.6,140.4,84.7,90.8,14.3,4.0
+SUBJ-3573,Placebo,44.0,Male,Asian,Not Hispanic or Latino,91.9,155.4,27.2,159.8,93.5,79.2,25.3,10.1
+SUBJ-4929,Placebo,42.8,Male,White,Not Hispanic or Latino,69.7,172.4,31.3,127.7,66.3,74.1,21.9,5.4
+SUBJ-3847,Placebo,62.5,Female,White,Not Hispanic or Latino,66.4,150.2,37.8,171.6,86.1,60.4,38.6,6.3
+SUBJ-2229,Placebo,68.1,Female,White,Not Hispanic or Latino,94.3,167.3,18.0,170.9,87.8,55.4,34.6,5.4
+SUBJ-3564,Placebo,42.3,Female,White,Not Hispanic or Latino,87.9,174.4,25.0,132.6,61.4,81.2,35.2,0.5
+SUBJ-1043,Placebo,68.8,Male,White,Hispanic or Latino,84.5,164.8,27.5,124.6,90.0,90.1,29.0,11.1
+SUBJ-7693,Placebo,58.4,Male,White,Hispanic or Latino,69.3,159.5,35.8,147.6,90.8,66.7,29.8,7.2
+SUBJ-8699,Placebo,68.9,Male,White,Not Hispanic or Latino,91.1,178.5,20.3,128.7,78.9,58.3,29.0,6.7
+SUBJ-5771,Placebo,57.3,Male,Black or African American,Not Hispanic or Latino,70.7,169.0,38.2,114.2,94.5,45.0,31.4,5.3
+SUBJ-1534,Placebo,32.8,Male,Black or African American,Not Hispanic or Latino,80.5,165.1,29.2,158.1,93.4,60.2,38.7,6.1
+SUBJ-4792,Placebo,56.5,Female,White,Hispanic or Latino,103.7,170.4,28.0,156.9,83.0,70.6,34.7,3.4
+SUBJ-5720,Placebo,68.6,Male,Asian,Hispanic or Latino,72.1,196.4,27.5,137.8,77.5,91.2,36.0,7.7
+SUBJ-5632,Placebo,49.1,Female,White,Not Hispanic or Latino,58.4,181.5,26.3,112.3,72.3,80.1,36.0,0.9
+SUBJ-8438,Placebo,54.1,Male,Asian,Not Hispanic or Latino,66.2,181.6,33.7,112.9,81.6,75.7,39.1,6.2
+SUBJ-2166,Placebo,56.2,Female,White,Not Hispanic or Latino,96.9,174.4,23.2,136.9,87.7,67.2,34.3,7.5
+SUBJ-4824,Placebo,30.0,Male,White,Not Hispanic or Latino,85.8,171.7,30.2,126.0,78.8,65.0,34.9,4.8
+SUBJ-5334,Placebo,74.7,Male,Asian,Not Hispanic or Latino,80.1,146.0,26.6,128.9,60.0,88.9,41.5,6.8
+SUBJ-4241,Placebo,49.0,Male,Asian,Not Hispanic or Latino,74.4,163.2,24.7,153.4,94.7,74.4,26.7,2.0
+SUBJ-2880,Placebo,63.1,Male,White,Not Hispanic or Latino,89.3,165.2,41.4,148.2,83.9,46.8,25.2,2.1
+SUBJ-9922,Placebo,57.1,Male,White,Not Hispanic or Latino,69.3,151.3,30.6,159.8,78.2,63.9,22.5,6.3
+SUBJ-4683,Placebo,70.6,Male,White,Hispanic or Latino,86.6,158.4,31.6,117.2,90.6,61.7,33.5,7.9
+SUBJ-3441,Placebo,62.1,Male,White,Not Hispanic or Latino,71.0,150.2,34.2,128.8,97.2,65.4,17.2,0.5
+SUBJ-5352,Placebo,55.7,Female,White,Not Hispanic or Latino,68.5,169.6,21.4,148.7,54.0,78.8,35.7,7.3
+SUBJ-3330,Placebo,49.1,Female,White,Not Hispanic or Latino,72.4,178.2,37.3,143.1,86.3,70.7,31.1,3.6
+SUBJ-1977,Placebo,66.0,Female,Asian,Not Hispanic or Latino,76.4,181.1,18.0,162.6,67.7,71.1,41.1,4.8
+SUBJ-3718,Placebo,39.3,Male,White,Not Hispanic or Latino,81.3,174.1,24.7,142.6,87.0,87.8,26.6,0.8
+SUBJ-6039,Placebo,64.5,Male,White,Not Hispanic or Latino,85.5,160.4,26.2,168.3,83.3,63.6,30.4,2.5
+SUBJ-5728,Placebo,47.0,Male,White,Not Hispanic or Latino,45.0,150.7,31.4,144.7,88.4,94.4,41.0,8.9
+SUBJ-8195,Placebo,70.5,Male,White,Not Hispanic or Latino,69.9,152.4,29.6,154.1,77.0,63.9,43.1,5.6
+SUBJ-3037,Placebo,59.6,Male,White,Not Hispanic or Latino,76.1,157.3,27.7,129.2,63.3,73.1,26.6,4.2
+SUBJ-8679,Placebo,64.4,Male,White,Not Hispanic or Latino,104.6,161.1,28.4,135.3,77.5,68.6,33.5,5.1
+SUBJ-5982,Placebo,58.8,Male,Black or African American,Not Hispanic or Latino,65.8,168.4,23.6,151.4,86.1,73.5,34.4,7.2
+SUBJ-7594,Placebo,40.5,Male,Asian,Not Hispanic or Latino,84.4,159.9,21.0,164.0,92.2,77.3,35.0,7.0
+SUBJ-5460,Placebo,49.4,Male,White,Not Hispanic or Latino,104.4,173.4,32.1,148.1,70.3,77.2,29.9,5.2
+SUBJ-9199,Placebo,64.7,Female,White,Not Hispanic or Latino,62.3,167.7,32.0,133.5,92.3,63.0,42.3,9.3
+SUBJ-9847,Placebo,59.7,Female,White,Not Hispanic or Latino,87.9,170.1,36.4,159.8,75.5,58.5,16.9,8.9
+SUBJ-9090,Placebo,69.8,Female,Asian,Not Hispanic or Latino,70.0,181.4,24.5,95.5,85.6,102.0,28.6,6.9
+SUBJ-8172,Placebo,62.0,Female,Black or African American,Hispanic or Latino,74.4,158.2,32.0,109.4,76.9,66.2,35.6,5.7
+SUBJ-2317,Placebo,48.3,Male,White,Not Hispanic or Latino,70.0,174.2,27.1,147.3,83.8,80.4,35.7,7.8
+SUBJ-8078,Placebo,50.0,Female,White,Not Hispanic or Latino,71.0,169.9,34.5,135.3,90.9,52.7,42.8,6.6
+SUBJ-5102,Placebo,59.0,Female,Black or African American,Not Hispanic or Latino,122.8,166.7,33.6,145.9,69.7,68.6,41.6,9.2
+SUBJ-1423,Placebo,34.9,Male,White,Not Hispanic or Latino,94.7,178.9,29.6,136.2,75.2,70.5,29.7,8.6
+SUBJ-2496,Placebo,74.7,Male,White,Not Hispanic or Latino,98.5,178.8,26.8,145.3,83.8,77.7,42.4,1.9
+SUBJ-1339,Placebo,62.4,Female,Asian,Not Hispanic or Latino,89.4,160.5,33.3,120.3,106.0,45.0,26.3,1.7
+SUBJ-5415,Placebo,70.3,Male,Black or African American,Not Hispanic or Latino,57.9,168.2,31.7,145.3,73.4,74.0,39.4,3.0
+SUBJ-3870,Placebo,42.2,Female,White,Hispanic or Latino,87.9,172.8,25.1,152.9,102.4,58.2,46.5,8.9
+SUBJ-8708,Placebo,70.4,Male,White,Not Hispanic or Latino,98.1,167.3,21.9,157.0,102.0,75.9,41.7,0.5
+SUBJ-9502,Placebo,80.0,Male,White,Not Hispanic or Latino,69.2,175.9,27.1,171.2,81.0,59.6,32.8,6.9
+SUBJ-8245,Placebo,44.8,Male,White,Hispanic or Latino,96.5,172.8,36.1,139.4,79.0,61.7,29.3,6.8
+SUBJ-3973,Placebo,65.7,Male,White,Not Hispanic or Latino,92.6,188.3,34.2,139.9,75.1,68.7,19.8,9.6
+SUBJ-8141,Placebo,58.0,Female,White,Not Hispanic or Latino,109.8,154.7,22.9,107.6,81.3,59.4,34.5,6.1
+SUBJ-2494,Placebo,42.6,Female,Black or African American,Not Hispanic or Latino,75.7,168.8,22.7,125.4,67.9,66.3,23.1,0.8
+SUBJ-8700,Placebo,62.9,Male,Asian,Not Hispanic or Latino,65.5,160.9,34.9,131.5,81.2,57.7,25.7,2.1
+SUBJ-6700,Placebo,66.3,Male,White,Not Hispanic or Latino,76.6,176.0,22.8,153.9,97.0,50.0,22.5,1.4
+SUBJ-7690,Placebo,52.0,Female,White,Not Hispanic or Latino,103.5,153.8,31.0,124.0,75.9,84.2,28.3,3.6
+SUBJ-6460,Placebo,69.7,Male,White,Not Hispanic or Latino,54.6,173.5,25.4,149.3,79.6,56.4,31.8,4.9
+SUBJ-6260,Placebo,41.3,Male,White,Not Hispanic or Latino,51.0,163.7,36.6,135.0,65.0,69.9,34.2,1.4
+SUBJ-2713,Placebo,43.1,Male,White,Not Hispanic or Latino,83.3,162.7,24.6,131.8,85.7,81.0,27.2,10.6
+SUBJ-3634,Placebo,59.4,Female,White,Not Hispanic or Latino,75.4,155.5,34.2,139.5,84.6,64.6,40.6,0.9
+SUBJ-6403,Placebo,58.3,Female,Asian,Not Hispanic or Latino,82.1,165.3,29.4,128.0,82.6,62.1,30.3,10.2
+SUBJ-7744,Placebo,50.8,Male,White,Hispanic or Latino,96.2,180.8,29.8,127.3,79.8,74.7,25.7,9.6
+SUBJ-9117,Placebo,66.1,Male,Asian,Not Hispanic or Latino,73.7,169.7,18.6,104.3,79.1,85.4,33.8,8.6
+SUBJ-5722,Placebo,63.3,Female,Other,Not Hispanic or Latino,53.9,176.3,18.0,130.5,87.0,58.0,47.7,3.1
+SUBJ-7561,Placebo,66.6,Female,White,Not Hispanic or Latino,112.7,186.6,27.4,126.4,81.7,70.2,34.7,6.7
+SUBJ-1601,Placebo,56.8,Male,White,Not Hispanic or Latino,67.0,172.6,29.7,125.7,85.1,51.2,29.1,1.0
+SUBJ-8451,Placebo,64.0,Male,Other,Not Hispanic or Latino,66.1,164.4,22.9,142.5,84.1,67.3,19.8,8.7
+SUBJ-2442,Placebo,53.5,Female,Other,Not Hispanic or Latino,98.6,174.7,23.1,146.9,93.2,72.4,30.2,5.2
+SUBJ-6153,Placebo,78.5,Male,White,Hispanic or Latino,76.2,164.6,31.3,139.2,88.8,61.7,33.9,4.1
+SUBJ-5135,Placebo,49.9,Male,White,Hispanic or Latino,81.0,165.0,31.3,152.9,83.9,66.5,28.9,1.2
+SUBJ-6296,Placebo,79.1,Male,White,Hispanic or Latino,89.2,154.8,27.8,145.4,97.2,55.1,18.7,0.5
+SUBJ-2899,Placebo,58.3,Male,Other,Hispanic or Latino,98.3,179.3,32.4,129.7,86.2,72.9,25.2,1.9
+SUBJ-7622,Placebo,44.2,Female,White,Not Hispanic or Latino,77.0,166.1,22.6,126.7,95.0,84.7,43.6,9.4
+SUBJ-9431,Placebo,71.7,Male,White,Not Hispanic or Latino,104.8,171.8,26.7,140.6,88.1,58.8,43.5,4.1
+SUBJ-1018,Placebo,59.3,Female,Black or African American,Hispanic or Latino,50.0,159.6,36.7,145.3,63.6,64.5,24.9,4.9
+SUBJ-9889,Placebo,66.5,Male,White,Not Hispanic or Latino,93.4,174.4,28.8,160.2,95.0,78.0,37.4,7.8
+SUBJ-8569,Placebo,70.2,Male,White,Hispanic or Latino,69.4,162.4,29.1,156.4,83.4,86.5,22.6,11.8
+SUBJ-7770,Placebo,61.4,Male,White,Not Hispanic or Latino,102.6,168.6,40.0,125.3,81.5,54.1,43.2,10.1
+SUBJ-1888,Placebo,52.1,Female,Asian,Not Hispanic or Latino,84.1,178.8,21.5,133.2,84.8,70.0,34.0,2.1
+SUBJ-4073,Placebo,67.8,Female,White,Not Hispanic or Latino,71.9,177.9,32.5,147.1,78.6,75.4,39.6,0.5
+SUBJ-9494,Placebo,58.0,Male,White,Hispanic or Latino,91.9,169.8,36.8,154.2,84.3,70.8,18.3,13.8
+SUBJ-6927,Placebo,64.9,Female,White,Not Hispanic or Latino,95.4,152.3,26.9,151.9,76.1,45.0,37.4,13.4
+SUBJ-9167,Placebo,36.5,Male,White,Not Hispanic or Latino,91.6,199.9,32.8,133.9,94.7,78.0,31.9,6.2
+SUBJ-8242,Placebo,62.5,Female,White,Not Hispanic or Latino,66.6,187.5,23.6,112.4,80.9,90.2,38.8,1.1
+SUBJ-1845,Placebo,51.6,Male,White,Not Hispanic or Latino,74.7,177.2,25.1,117.0,78.2,73.4,39.3,8.9
+SUBJ-5375,Placebo,74.5,Female,White,Not Hispanic or Latino,81.9,162.5,30.4,139.9,72.8,59.6,32.5,5.1
+SUBJ-9998,Placebo,64.2,Male,Black or African American,Not Hispanic or Latino,81.4,168.9,32.5,141.2,84.7,65.8,27.2,5.1
+SUBJ-3146,Placebo,60.4,Male,Black or African American,Not Hispanic or Latino,93.2,164.6,34.1,115.2,83.9,93.2,38.2,8.6
+SUBJ-5719,Placebo,62.9,Female,White,Not Hispanic or Latino,51.8,182.6,36.3,135.8,85.9,82.9,31.5,6.7
+SUBJ-8178,Placebo,48.0,Male,White,Not Hispanic or Latino,87.0,172.6,28.2,146.4,71.7,79.7,25.0,1.3
+SUBJ-8941,Placebo,74.2,Male,White,Not Hispanic or Latino,77.7,162.2,34.5,114.3,66.0,76.3,24.6,4.4
+SUBJ-2989,Placebo,77.9,Male,Black or African American,Not Hispanic or Latino,69.4,165.3,26.8,154.9,88.3,64.1,20.2,7.8
+SUBJ-1472,Placebo,61.9,Female,White,Not Hispanic or Latino,70.9,181.2,33.0,128.2,96.8,69.6,27.9,7.3
+SUBJ-4920,Placebo,73.9,Female,White,Hispanic or Latino,78.8,186.0,29.5,157.6,71.7,71.1,40.8,6.4
+SUBJ-3594,Placebo,52.3,Male,White,Not Hispanic or Latino,45.0,185.3,30.7,125.4,97.9,78.6,33.4,8.8
+SUBJ-6091,Placebo,50.0,Female,White,Not Hispanic or Latino,71.5,177.6,30.6,116.5,84.8,90.1,27.8,4.2
+SUBJ-1224,Placebo,58.4,Male,White,Not Hispanic or Latino,68.9,167.5,20.5,126.8,81.9,85.4,38.4,6.1
+SUBJ-7684,Placebo,62.3,Male,White,Not Hispanic or Latino,90.0,145.0,22.9,133.3,78.0,55.0,25.3,0.5
+SUBJ-2527,Placebo,54.1,Female,White,Not Hispanic or Latino,69.9,173.0,29.0,128.0,68.2,74.7,32.8,3.9
+SUBJ-2858,Placebo,63.4,Male,Black or African American,Not Hispanic or Latino,78.8,170.0,20.1,131.1,91.9,80.8,30.6,8.2
+SUBJ-8560,Placebo,61.1,Male,White,Not Hispanic or Latino,105.1,171.4,32.7,141.0,74.2,79.4,38.2,4.1
+SUBJ-2924,Placebo,48.0,Male,White,Not Hispanic or Latino,96.9,170.5,32.9,131.9,74.2,64.4,19.4,3.9
+SUBJ-3522,Placebo,63.2,Female,White,Not Hispanic or Latino,95.5,156.7,30.1,133.8,91.9,107.0,25.2,1.9
+SUBJ-9165,Placebo,66.6,Male,White,Not Hispanic or Latino,74.5,175.6,22.9,104.2,63.2,56.7,18.9,9.0
+SUBJ-5781,Placebo,59.7,Female,White,Not Hispanic or Latino,90.1,176.3,35.4,142.1,66.8,59.0,29.9,7.4
+SUBJ-9337,Placebo,69.5,Female,White,Not Hispanic or Latino,78.5,176.8,38.7,133.4,81.8,74.8,41.7,8.4
+SUBJ-5479,Placebo,45.8,Male,White,Not Hispanic or Latino,79.1,179.5,29.2,164.0,84.9,97.4,28.0,0.5
+SUBJ-7807,Placebo,62.7,Female,White,Hispanic or Latino,88.1,176.0,31.1,118.1,86.8,62.0,27.9,4.9
+SUBJ-8905,Placebo,46.3,Male,White,Not Hispanic or Latino,73.0,165.9,29.5,102.5,79.0,68.8,39.0,4.5
+SUBJ-8736,Placebo,46.9,Male,White,Not Hispanic or Latino,104.4,169.3,31.2,146.1,107.3,84.9,40.5,4.5
+SUBJ-4993,Placebo,51.7,Female,Asian,Not Hispanic or Latino,79.6,170.9,27.9,141.2,79.7,71.8,31.3,3.3
+SUBJ-8483,Placebo,48.6,Female,White,Hispanic or Latino,91.3,171.1,28.3,116.8,79.7,68.0,37.5,4.3
+SUBJ-3369,Placebo,52.5,Male,White,Not Hispanic or Latino,103.8,180.0,33.0,107.5,74.0,78.8,23.4,8.5
+SUBJ-7284,Placebo,55.9,Male,White,Not Hispanic or Latino,97.5,176.4,40.2,162.7,83.2,75.3,43.0,0.5
+SUBJ-4122,Placebo,66.4,Male,White,Not Hispanic or Latino,60.9,190.8,21.5,160.5,88.1,84.4,49.2,11.7
+SUBJ-9327,Placebo,54.8,Male,White,Hispanic or Latino,88.7,192.1,28.0,90.2,94.0,87.5,36.2,7.2
+SUBJ-3236,Placebo,42.1,Male,White,Not Hispanic or Latino,94.8,170.8,22.6,126.8,67.1,75.7,15.3,5.4
+SUBJ-2143,Placebo,69.4,Male,Black or African American,Hispanic or Latino,95.4,145.0,36.5,165.0,79.5,75.5,27.5,8.7
+SUBJ-7798,Placebo,49.6,Female,White,Not Hispanic or Latino,65.3,182.4,25.6,126.4,86.5,74.6,36.9,0.5
+SUBJ-6568,Placebo,57.4,Male,White,Not Hispanic or Latino,72.1,164.6,21.3,126.2,87.9,77.9,28.6,3.2
+SUBJ-9318,Placebo,62.5,Male,Black or African American,Not Hispanic or Latino,96.9,162.0,31.7,129.9,82.1,72.7,42.2,5.1
+SUBJ-5377,Placebo,60.0,Female,Asian,Not Hispanic or Latino,70.6,166.0,37.2,114.8,87.4,72.0,36.7,10.3
+SUBJ-1042,Placebo,68.9,Female,White,Hispanic or Latino,77.5,165.5,31.8,104.3,73.9,86.4,26.3,5.3
+SUBJ-5634,Placebo,62.8,Male,White,Not Hispanic or Latino,105.6,176.1,29.5,153.9,97.6,90.2,32.3,7.1
+SUBJ-5891,Placebo,49.4,Male,White,Not Hispanic or Latino,81.3,154.4,30.5,101.8,91.9,53.9,24.8,3.4
+SUBJ-9022,Placebo,79.8,Female,White,Not Hispanic or Latino,71.1,159.2,35.6,139.5,68.6,72.1,30.5,7.2
+SUBJ-3434,Placebo,59.9,Male,White,Not Hispanic or Latino,68.8,173.4,24.1,151.0,71.2,63.7,27.6,11.4
+SUBJ-8316,Placebo,56.5,Male,White,Not Hispanic or Latino,87.0,176.2,27.9,108.9,71.5,68.3,41.4,9.0
+SUBJ-9824,Placebo,67.6,Female,Black or African American,Not Hispanic or Latino,62.0,176.4,26.2,118.4,88.8,76.8,48.9,5.2
+SUBJ-8935,Placebo,60.5,Male,White,Not Hispanic or Latino,78.3,162.1,22.7,156.8,69.2,80.0,20.6,7.9
+SUBJ-6654,Placebo,62.0,Male,White,Not Hispanic or Latino,87.0,160.2,26.9,144.6,78.7,70.7,16.6,7.5
+SUBJ-6446,Placebo,80.0,Male,White,Not Hispanic or Latino,101.5,164.9,34.0,123.9,86.5,49.0,30.0,7.3
+SUBJ-9903,Placebo,55.2,Male,Black or African American,Not Hispanic or Latino,92.0,172.4,31.3,156.6,81.3,60.4,19.9,9.4
+SUBJ-7180,Placebo,54.8,Male,White,Not Hispanic or Latino,71.3,184.9,31.7,156.7,84.6,82.8,32.4,9.4
+SUBJ-8460,Placebo,59.2,Female,White,Not Hispanic or Latino,99.7,149.5,29.2,139.8,71.3,45.0,38.0,5.1
+SUBJ-6272,Placebo,68.7,Male,White,Not Hispanic or Latino,77.5,167.8,31.1,118.8,87.9,86.2,44.0,7.7
+SUBJ-4090,Placebo,42.9,Male,White,Not Hispanic or Latino,63.5,156.7,24.5,127.6,75.9,78.3,33.6,4.2
+SUBJ-4912,Placebo,38.3,Male,White,Not Hispanic or Latino,79.4,153.5,27.0,140.2,78.8,87.8,30.5,2.3
+SUBJ-7274,Placebo,52.1,Female,White,Not Hispanic or Latino,103.6,179.7,29.5,131.6,84.4,69.6,16.2,4.6
+SUBJ-4826,Placebo,41.7,Male,White,Hispanic or Latino,84.5,175.4,29.9,151.9,83.0,47.3,32.2,5.2
+SUBJ-7730,Placebo,53.8,Male,White,Not Hispanic or Latino,82.2,174.5,30.1,107.5,82.2,77.2,32.6,0.5
+SUBJ-1715,Placebo,63.0,Female,White,Hispanic or Latino,106.6,179.2,27.8,108.1,74.5,87.3,37.1,8.5
+SUBJ-6213,Placebo,49.1,Male,White,Not Hispanic or Latino,60.5,165.2,26.6,138.3,79.0,83.1,26.3,0.5
+SUBJ-7246,Placebo,43.7,Male,White,Hispanic or Latino,62.7,165.7,44.3,126.2,82.0,64.0,28.5,15.0
+SUBJ-7325,Placebo,58.7,Male,White,Not Hispanic or Latino,57.8,191.9,33.0,123.7,68.2,73.0,20.2,10.8
+SUBJ-3492,Placebo,66.6,Male,White,Not Hispanic or Latino,87.6,167.5,30.6,103.2,77.4,65.6,13.7,4.6
+SUBJ-9115,Placebo,41.1,Male,White,Not Hispanic or Latino,84.5,177.4,27.3,135.4,85.9,62.2,23.1,5.5
+SUBJ-1606,Placebo,66.2,Female,Other,Not Hispanic or Latino,105.1,170.1,26.2,134.1,69.2,83.5,19.4,6.6
+SUBJ-9229,Placebo,66.2,Male,White,Hispanic or Latino,85.7,151.5,27.8,146.8,93.6,57.6,34.7,3.4
+SUBJ-6439,Placebo,67.5,Male,White,Not Hispanic or Latino,75.9,149.6,30.0,136.2,94.7,61.3,27.9,6.2
+SUBJ-2644,Placebo,70.2,Male,White,Not Hispanic or Latino,82.0,164.2,19.1,132.6,69.5,58.8,27.7,5.0
+SUBJ-8213,Placebo,80.0,Male,Asian,Hispanic or Latino,83.8,180.6,20.7,156.2,95.6,54.1,24.1,5.2
+SUBJ-2633,Placebo,54.4,Male,Black or African American,Not Hispanic or Latino,56.9,177.9,25.3,111.4,80.6,73.8,10.0,6.1
+SUBJ-9617,Placebo,59.1,Female,White,Not Hispanic or Latino,122.7,179.1,29.5,144.7,86.2,85.9,44.1,0.9
+SUBJ-8486,Placebo,53.8,Male,White,Not Hispanic or Latino,89.8,160.1,27.3,104.9,77.0,69.8,24.0,5.6
+SUBJ-1251,Placebo,58.0,Female,White,Hispanic or Latino,85.2,186.2,35.9,119.9,91.2,53.9,28.7,6.1
+SUBJ-3361,Placebo,73.3,Male,White,Not Hispanic or Latino,91.2,160.4,21.1,113.2,86.1,82.1,20.4,6.0
+SUBJ-7717,Placebo,44.5,Male,Black or African American,Not Hispanic or Latino,92.6,172.1,24.7,149.1,73.9,92.2,39.8,4.7
+SUBJ-3529,Placebo,49.4,Male,White,Not Hispanic or Latino,79.9,169.9,36.1,133.8,70.3,64.2,33.1,9.5
+SUBJ-2225,Placebo,71.8,Male,White,Not Hispanic or Latino,72.5,168.3,29.2,134.8,67.4,66.3,25.4,4.3
+SUBJ-8692,Placebo,68.2,Male,Black or African American,Not Hispanic or Latino,91.0,183.4,32.9,115.1,83.9,78.2,28.9,6.3
+SUBJ-6546,Placebo,54.4,Male,Black or African American,Hispanic or Latino,87.8,162.9,38.8,129.6,87.7,91.5,45.4,10.0
+SUBJ-7512,Placebo,66.5,Female,White,Hispanic or Latino,69.9,156.5,25.0,121.3,88.5,65.8,31.4,5.2
+SUBJ-2315,Placebo,61.4,Male,White,Not Hispanic or Latino,103.3,170.2,28.0,141.9,80.8,56.0,30.5,6.3
+SUBJ-6383,Placebo,73.0,Male,White,Not Hispanic or Latino,86.4,166.0,27.1,117.2,70.4,79.6,24.5,5.2
+SUBJ-9742,Placebo,58.7,Male,Asian,Not Hispanic or Latino,92.9,200.0,18.7,158.9,75.2,81.6,16.8,9.8
+SUBJ-7226,Placebo,68.3,Male,Black or African American,Not Hispanic or Latino,102.9,176.8,26.9,104.8,93.5,72.1,30.7,4.6
+SUBJ-6188,Placebo,80.0,Male,White,Not Hispanic or Latino,82.3,165.9,32.9,120.5,77.2,65.3,34.6,10.0
+SUBJ-8994,Placebo,64.0,Male,White,Hispanic or Latino,86.8,159.4,31.2,165.2,83.4,83.9,40.8,5.1
+SUBJ-9864,Placebo,58.5,Male,Asian,Not Hispanic or Latino,94.2,151.2,31.6,127.2,71.2,78.3,14.0,2.5
+SUBJ-1588,Placebo,65.2,Female,White,Not Hispanic or Latino,71.1,159.7,26.6,111.3,85.4,62.8,23.0,7.9
+SUBJ-2121,Placebo,54.3,Female,White,Not Hispanic or Latino,82.8,171.1,25.2,138.9,77.4,72.6,27.4,4.4
+SUBJ-4846,Placebo,80.0,Male,Black or African American,Not Hispanic or Latino,83.9,184.3,34.8,126.4,92.5,55.8,32.0,7.7
+SUBJ-5708,Placebo,59.8,Male,White,Not Hispanic or Latino,67.7,181.2,26.0,120.0,89.7,80.2,30.8,0.5
+SUBJ-2480,Placebo,55.3,Female,White,Not Hispanic or Latino,116.8,172.3,30.0,115.3,77.0,68.9,31.0,5.5
+SUBJ-8110,Placebo,49.6,Male,Asian,Hispanic or Latino,60.9,166.8,29.3,184.8,80.7,66.8,35.3,3.9
+SUBJ-2646,Placebo,69.0,Male,Black or African American,Hispanic or Latino,62.5,172.7,35.8,130.5,76.5,71.6,24.8,1.8
+SUBJ-8269,Placebo,66.7,Male,White,Not Hispanic or Latino,101.7,164.8,33.4,100.3,67.8,72.5,39.5,3.6
+SUBJ-3725,Placebo,53.0,Male,White,Hispanic or Latino,92.7,187.2,22.0,161.9,73.4,82.7,35.5,3.5
+SUBJ-5906,Placebo,63.8,Male,White,Not Hispanic or Latino,66.6,168.1,22.6,146.0,84.0,79.1,29.4,5.3
+SUBJ-1474,Placebo,42.9,Male,White,Not Hispanic or Latino,91.1,169.1,31.4,121.2,85.3,70.1,44.8,0.7
+SUBJ-1753,Placebo,59.8,Male,White,Not Hispanic or Latino,104.0,147.8,28.2,118.2,83.5,81.2,44.5,6.6
+SUBJ-6314,Placebo,62.5,Male,Black or African American,Not Hispanic or Latino,81.5,168.0,26.2,147.1,79.0,76.8,39.5,10.3
+SUBJ-1919,Placebo,75.1,Female,White,Hispanic or Latino,121.0,178.4,33.6,130.6,91.3,66.9,10.0,6.5
+SUBJ-5806,Placebo,50.3,Male,White,Not Hispanic or Latino,56.1,159.3,29.4,100.3,82.6,70.5,44.6,8.3
+SUBJ-6873,Placebo,45.2,Male,White,Not Hispanic or Latino,92.4,162.5,28.8,167.2,89.0,70.2,38.4,9.3
+SUBJ-7141,Placebo,49.0,Male,Other,Not Hispanic or Latino,99.5,177.9,32.4,127.2,64.3,78.1,48.1,9.8
+SUBJ-8056,Placebo,44.6,Female,White,Not Hispanic or Latino,95.4,155.2,26.6,161.9,50.0,67.6,41.9,12.0
+SUBJ-3385,Placebo,71.4,Female,White,Not Hispanic or Latino,78.9,180.6,36.3,158.0,84.8,67.3,44.6,3.8
+SUBJ-5000,Placebo,73.5,Female,White,Not Hispanic or Latino,77.6,164.7,24.6,117.0,67.8,95.6,39.0,3.0
+SUBJ-7751,Placebo,61.2,Male,White,Not Hispanic or Latino,88.7,166.1,31.8,153.6,79.9,83.3,42.8,8.2
+SUBJ-3950,Placebo,70.2,Female,White,Not Hispanic or Latino,94.2,158.8,35.7,123.3,79.0,62.9,48.0,8.0
+SUBJ-3785,Placebo,59.3,Female,White,Not Hispanic or Latino,91.0,173.8,21.6,101.4,97.9,78.9,33.7,8.2
+SUBJ-3868,Placebo,57.0,Male,White,Not Hispanic or Latino,97.6,194.6,26.8,127.4,86.0,73.4,19.4,12.1
+SUBJ-2293,Placebo,54.7,Male,White,Not Hispanic or Latino,66.7,177.8,34.2,142.2,83.7,76.7,29.5,5.5
+SUBJ-4945,Placebo,54.9,Male,White,Not Hispanic or Latino,78.6,161.4,34.3,126.7,90.4,73.6,35.1,7.0
+SUBJ-9153,Placebo,42.5,Female,White,Hispanic or Latino,67.9,181.4,27.6,129.5,85.7,86.3,32.6,2.1
+SUBJ-3344,Placebo,60.6,Male,White,Not Hispanic or Latino,76.2,166.8,24.8,155.6,77.4,76.1,22.0,13.0
+SUBJ-4804,Placebo,57.6,Male,White,Not Hispanic or Latino,97.2,183.7,33.3,136.9,92.7,71.3,19.0,4.3
+SUBJ-8555,Placebo,65.5,Female,White,Not Hispanic or Latino,83.6,178.1,34.4,119.8,70.9,84.5,26.1,4.4
+SUBJ-5161,Placebo,58.9,Female,White,Not Hispanic or Latino,121.1,145.0,22.7,147.6,85.2,74.8,38.5,4.3
+SUBJ-8529,Placebo,56.4,Female,White,Not Hispanic or Latino,84.9,160.0,22.5,138.6,66.5,73.5,44.6,3.2
+SUBJ-5183,Placebo,49.3,Female,White,Not Hispanic or Latino,82.9,179.4,29.6,90.0,84.0,75.8,39.3,2.9
+SUBJ-1153,Placebo,58.7,Male,White,Not Hispanic or Latino,83.6,171.5,31.6,142.7,83.9,70.9,40.5,3.7
+SUBJ-8622,Placebo,65.4,Female,White,Not Hispanic or Latino,72.4,159.8,27.0,142.1,98.8,72.1,31.4,0.7
+SUBJ-5712,Placebo,46.6,Male,Other,Not Hispanic or Latino,81.1,163.7,31.9,135.4,66.4,65.0,18.1,2.8
+SUBJ-9955,Placebo,58.9,Female,Asian,Not Hispanic or Latino,98.9,150.9,24.9,151.1,76.0,63.0,28.4,12.3
+SUBJ-3588,Placebo,60.3,Male,White,Not Hispanic or Latino,83.7,169.1,18.0,122.9,90.2,60.0,29.9,8.1
+SUBJ-2210,Placebo,50.8,Female,White,Not Hispanic or Latino,70.1,192.1,26.4,141.1,85.4,55.3,28.0,8.7
+SUBJ-8237,Placebo,52.1,Male,White,Not Hispanic or Latino,68.1,178.0,28.8,106.8,83.8,61.4,32.4,9.6
+SUBJ-6661,Placebo,60.3,Female,White,Not Hispanic or Latino,75.2,191.9,27.1,142.3,72.4,69.9,35.5,11.9
+SUBJ-5901,Placebo,46.7,Male,White,Not Hispanic or Latino,83.1,178.8,22.7,170.2,76.1,73.2,38.8,0.5
+SUBJ-7951,Placebo,61.5,Male,White,Not Hispanic or Latino,99.9,180.3,19.4,117.1,94.5,68.7,29.8,1.2
+SUBJ-5097,Placebo,49.0,Female,White,Not Hispanic or Latino,61.9,189.7,25.9,121.3,81.5,45.0,16.8,2.7
+SUBJ-8484,Placebo,68.6,Male,Asian,Not Hispanic or Latino,77.2,173.8,33.0,122.2,85.8,90.9,28.1,3.9
+SUBJ-5949,Placebo,80.0,Female,White,Not Hispanic or Latino,84.2,168.1,34.8,137.3,80.8,85.0,32.3,4.4
+SUBJ-4263,Placebo,49.4,Male,Black or African American,Not Hispanic or Latino,54.5,180.3,34.4,115.9,70.2,77.3,41.8,3.9
+SUBJ-7302,Placebo,63.3,Female,Black or African American,Not Hispanic or Latino,69.5,184.5,24.4,142.6,91.3,94.9,27.5,6.3
+SUBJ-8916,Placebo,50.7,Male,White,Not Hispanic or Latino,71.8,165.2,22.7,150.2,87.0,60.3,36.1,5.6
+SUBJ-2747,Placebo,68.4,Male,White,Not Hispanic or Latino,70.1,162.8,31.0,144.6,105.1,94.7,34.3,3.0
+SUBJ-4886,Placebo,45.3,Female,White,Not Hispanic or Latino,84.9,171.4,31.7,103.2,71.8,60.4,32.4,0.5
+SUBJ-7248,Placebo,62.8,Male,White,Not Hispanic or Latino,79.6,178.3,30.5,152.9,90.2,74.9,39.4,2.0
+SUBJ-5847,Placebo,49.3,Male,White,Not Hispanic or Latino,73.7,178.0,18.4,151.9,68.9,56.7,26.7,3.6
+SUBJ-5837,Placebo,55.9,Male,White,Not Hispanic or Latino,88.4,155.8,24.2,149.9,83.6,72.2,27.4,4.6
+SUBJ-1359,Placebo,47.7,Male,White,Not Hispanic or Latino,107.8,189.1,28.4,141.7,91.8,76.6,31.9,1.5
+SUBJ-5497,Placebo,66.2,Male,Asian,Not Hispanic or Latino,106.6,163.6,30.9,139.0,61.3,70.1,26.9,3.8
+SUBJ-1132,Placebo,49.6,Female,White,Not Hispanic or Latino,53.2,167.3,32.3,153.6,80.0,80.6,36.1,1.5
+SUBJ-1803,Placebo,63.5,Male,Other,Not Hispanic or Latino,90.7,161.0,29.2,169.6,76.4,73.2,26.3,5.1
+SUBJ-9138,Placebo,54.6,Male,White,Not Hispanic or Latino,79.3,197.0,30.2,117.8,75.0,65.7,33.8,1.7
+SUBJ-5689,Placebo,56.9,Male,Black or African American,Not Hispanic or Latino,84.3,172.4,28.9,154.4,85.9,65.2,31.2,2.5
+SUBJ-6772,Placebo,59.5,Male,White,Not Hispanic or Latino,76.0,161.5,31.9,133.4,93.2,81.7,33.7,0.9
+SUBJ-4588,Placebo,50.4,Male,White,Not Hispanic or Latino,83.8,178.6,30.1,132.7,80.7,64.2,28.3,5.0
+SUBJ-4115,Placebo,60.1,Female,Asian,Hispanic or Latino,84.3,177.7,28.8,107.3,84.1,83.0,29.3,2.5
+SUBJ-5106,Placebo,73.3,Female,White,Not Hispanic or Latino,73.3,168.1,27.2,129.9,83.1,86.7,32.8,8.7
+SUBJ-3240,Placebo,50.2,Male,White,Not Hispanic or Latino,68.6,178.4,28.9,117.0,82.0,52.0,33.6,6.9
+SUBJ-2591,Placebo,69.7,Male,White,Not Hispanic or Latino,75.3,161.7,30.9,126.7,71.1,85.6,32.0,5.3
+SUBJ-1645,Placebo,73.0,Female,White,Not Hispanic or Latino,85.5,165.1,29.8,115.2,93.1,96.7,45.6,2.7
+SUBJ-6061,Placebo,49.8,Male,White,Not Hispanic or Latino,91.0,149.9,30.4,126.9,85.0,75.0,24.1,6.8
+SUBJ-8222,Placebo,43.4,Male,Black or African American,Not Hispanic or Latino,94.8,156.8,35.2,127.7,85.9,79.2,31.5,7.9
+SUBJ-1546,Placebo,61.0,Male,White,Not Hispanic or Latino,74.6,188.1,29.8,136.7,73.9,84.4,19.4,6.0
+SUBJ-3153,Placebo,52.5,Male,White,Not Hispanic or Latino,86.3,186.4,25.3,105.9,77.4,68.7,35.0,11.1
+SUBJ-2476,Placebo,76.7,Female,Asian,Not Hispanic or Latino,96.4,170.7,32.9,109.0,80.2,74.2,23.1,7.1
+SUBJ-5835,Placebo,58.3,Female,White,Not Hispanic or Latino,99.5,186.6,21.7,141.5,66.7,56.2,29.8,8.7
+SUBJ-6352,Placebo,50.0,Male,White,Not Hispanic or Latino,81.1,168.4,23.1,120.6,65.1,73.7,29.0,6.0
+SUBJ-3877,Placebo,46.5,Male,Black or African American,Not Hispanic or Latino,78.7,167.6,30.2,154.3,76.0,78.0,34.2,7.9
+SUBJ-4289,Placebo,68.9,Female,White,Hispanic or Latino,84.9,170.6,31.1,139.1,87.2,78.2,27.6,2.7
+SUBJ-3165,Placebo,52.3,Female,White,Hispanic or Latino,64.8,168.8,22.3,145.9,75.5,84.8,27.2,3.9
+SUBJ-6994,Placebo,58.4,Male,White,Hispanic or Latino,79.1,167.8,26.6,160.4,71.8,62.7,43.5,6.7
+SUBJ-9697,Placebo,67.6,Female,White,Not Hispanic or Latino,93.2,181.4,25.5,129.4,73.9,65.6,34.3,6.7
+SUBJ-9221,Placebo,53.2,Male,White,Hispanic or Latino,91.6,171.5,26.1,124.7,77.4,94.7,27.5,7.3
+SUBJ-5465,Placebo,57.5,Female,White,Not Hispanic or Latino,77.9,177.1,33.2,150.7,78.5,70.2,30.0,9.4
+SUBJ-3695,Placebo,57.8,Female,Black or African American,Not Hispanic or Latino,85.3,180.3,32.0,144.2,103.7,74.4,45.2,0.5
+SUBJ-5210,Placebo,64.8,Male,White,Not Hispanic or Latino,69.6,173.9,28.4,131.6,92.5,71.2,30.1,2.1
+SUBJ-8894,Placebo,63.9,Female,White,Not Hispanic or Latino,92.6,160.3,25.8,160.0,92.2,62.1,26.5,6.3
+SUBJ-6549,Placebo,55.8,Male,Other,Not Hispanic or Latino,80.8,156.5,21.8,131.2,93.7,91.5,26.5,3.0
+SUBJ-2886,Placebo,58.6,Male,White,Not Hispanic or Latino,77.9,171.5,35.6,135.6,72.0,65.7,27.6,17.3
+SUBJ-8673,Placebo,54.3,Male,Black or African American,Not Hispanic or Latino,76.6,168.3,31.5,135.4,69.8,58.5,27.2,7.3
+SUBJ-2233,Placebo,43.2,Male,White,Not Hispanic or Latino,81.1,170.9,25.0,118.2,70.9,66.6,21.8,5.2
+SUBJ-3306,Placebo,60.6,Male,Black or African American,Not Hispanic or Latino,75.3,169.8,32.1,136.4,95.3,48.0,23.0,3.7
+SUBJ-4696,Placebo,76.9,Male,White,Not Hispanic or Latino,91.9,195.8,28.1,160.1,76.5,64.2,25.4,3.8
+SUBJ-7511,Placebo,49.2,Male,White,Not Hispanic or Latino,76.1,156.7,27.1,143.0,69.5,60.4,36.7,5.6
+SUBJ-6992,Placebo,50.3,Male,White,Not Hispanic or Latino,105.9,150.1,30.7,135.6,77.7,79.4,29.0,5.9
+SUBJ-2479,Placebo,49.3,Male,White,Not Hispanic or Latino,104.0,173.3,24.8,132.1,79.6,63.9,30.3,3.9
+SUBJ-7464,Placebo,65.2,Male,Black or African American,Not Hispanic or Latino,68.6,166.2,26.8,141.0,84.7,82.7,42.2,4.5
+SUBJ-1228,Placebo,62.5,Male,White,Not Hispanic or Latino,83.0,173.2,29.1,148.5,84.5,88.8,42.4,10.2
+SUBJ-5332,Placebo,56.4,Male,White,Not Hispanic or Latino,72.2,175.8,26.0,146.0,73.7,81.4,29.7,10.3
+SUBJ-9791,Placebo,48.8,Male,Black or African American,Not Hispanic or Latino,77.1,182.8,31.8,129.0,88.9,69.4,27.0,6.4
+SUBJ-3024,Placebo,58.9,Female,White,Not Hispanic or Latino,112.0,154.9,37.8,140.8,75.6,73.7,25.1,0.8
+SUBJ-7038,Placebo,42.4,Female,White,Not Hispanic or Latino,77.4,164.4,24.7,143.6,80.4,53.7,37.5,7.4
+SUBJ-5295,Placebo,59.4,Female,White,Not Hispanic or Latino,87.4,174.3,20.2,116.9,88.9,70.4,30.4,10.9
+SUBJ-7242,Placebo,66.7,Male,White,Not Hispanic or Latino,90.1,177.7,18.5,138.0,75.6,61.7,28.9,10.3
+SUBJ-7086,Placebo,45.5,Male,White,Not Hispanic or Latino,67.0,191.9,27.7,96.1,76.3,80.3,25.5,8.1
+SUBJ-2775,Placebo,42.7,Female,Other,Hispanic or Latino,69.2,179.6,25.2,143.7,87.9,102.9,25.8,10.5
+SUBJ-4830,Placebo,73.8,Male,White,Not Hispanic or Latino,63.9,169.4,29.5,146.9,73.4,78.0,34.6,5.7
+SUBJ-8724,Placebo,51.9,Male,White,Not Hispanic or Latino,68.7,161.1,29.2,148.5,78.2,48.1,21.5,7.7
+SUBJ-1410,Placebo,69.4,Male,Asian,Not Hispanic or Latino,45.0,164.4,20.5,127.9,87.6,67.7,40.0,3.1
+SUBJ-6374,Placebo,56.5,Female,White,Hispanic or Latino,90.2,164.1,19.4,140.6,102.5,73.5,27.7,6.5
+SUBJ-4626,Placebo,56.4,Male,White,Not Hispanic or Latino,112.8,176.6,30.0,160.6,88.1,73.0,30.8,10.2
+SUBJ-2035,Placebo,62.4,Female,White,Not Hispanic or Latino,84.2,172.6,29.2,160.4,86.7,63.2,21.3,3.4
+SUBJ-8606,Placebo,49.2,Female,White,Not Hispanic or Latino,60.8,156.8,26.4,134.5,87.3,74.9,31.9,2.5
+SUBJ-5951,Placebo,59.3,Male,White,Not Hispanic or Latino,72.4,165.6,20.2,137.5,71.3,57.1,29.4,5.8
+SUBJ-7689,Placebo,54.2,Female,White,Not Hispanic or Latino,75.1,178.8,30.9,155.0,83.2,60.7,31.6,4.7
+SUBJ-2911,Placebo,44.8,Male,White,Not Hispanic or Latino,66.7,173.5,34.9,108.0,81.7,79.7,43.8,7.8
