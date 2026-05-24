@@ -12,11 +12,16 @@ def generate_narrative(context: str) -> str:
     Critical rules:
     - Use only the retrieved context below.
     - Do not invent, estimate, round, recalculate or modify any number.
+    - Do not use bullet points.
+    - Do not repeat the same variable.
+    - Write oen short paragraph per treatment arm.
+    - For categorical variables, summarize the main distribution.
+    - For numeric variables, report n, mean, SD, median and range.
     - Every numerical statement must be traceable to a cell_id visible in the context.
     - Include cell_id references in parentheses after factual numerical claims.
     - If a value is not present in the context, do not mention it.
     - Write in formal, concise CSR style.
-    - Return only the final narrative, without markdown headings.
+    - Return only the final narrative.
 
     Retrieved context:
     {context}

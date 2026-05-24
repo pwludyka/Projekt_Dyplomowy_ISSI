@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.load_data import CSV_PATH, read_csv, create_summary_table
-from backend.RAG import setup_milvus_collection, index_summary_table, retrieve_context
-from backend.generate_narrative import generate_narrative
+from load_data import CSV_PATH, read_csv, create_summary_table
+from RAG import setup_milvus_collection, index_summary_table, retrieve_context
+from generate_narrative import generate_narrative
 
 app = FastAPI()
 
@@ -50,13 +50,12 @@ def load_embed_demographics():
 
 @app.post("/api/demographics/generate-narrative")
 def generate_demographics_narrative():
-    query = "Generate CSR demographics narrative."
-    context = retrieve_context(milvus_client, query)
+    context = "\n".join(summary_df["text"].to_list())
     narrative = generate_narrative(context)
 
     return {
-        "query": query,
-        "context": context,
+        #"query": query,
+        #"context": context,
         "narrative": narrative
     }
 
