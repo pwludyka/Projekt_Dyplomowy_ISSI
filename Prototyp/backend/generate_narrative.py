@@ -17,7 +17,7 @@ def generate_narrative(context: str) -> str:
     - Write oen short paragraph per treatment arm.
     - For categorical variables, summarize the main distribution.
     - For numeric variables, report n, mean, SD, median and range.
-    - Every numerical statement must be traceable to a cell_id visible in the context.
+    - For every numerical statement used in narrative, immediately after the number add a cell_id as in the context retrieved. Format: "mean age of 58.1 [[...]]".
     - Include cell_id references in parentheses after factual numerical claims.
     - If a value is not present in the context, do not mention it.
     - Write in formal, concise CSR style.
