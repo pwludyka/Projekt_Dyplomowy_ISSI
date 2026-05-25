@@ -23,7 +23,7 @@ milvus_client = None
 
 @app.get("/")
 def root():
-    return {"message": "CSR MVP Backend działa"}
+    return {"message": "CSR MVP Backend works"}
 
 
 @app.get("/api/health")
@@ -42,7 +42,7 @@ def load_embed_demographics():
     index_summary_table(milvus_client, summary_df)
 
     return {
-        "message": "Dane załadowane i embeddingi utworzone",
+        "message": "Data loaded, embeddings created",
         "rows_loaded": len(df),
         "summary_records": len(summary_df),
         "table_preview": df.head(20).to_dict(orient="records")
@@ -50,7 +50,11 @@ def load_embed_demographics():
 
 @app.post("/api/demographics/generate-narrative")
 def generate_demographics_narrative():
-    context = "\n".join(summary_df["text"].to_list())
+    global milvus_client
+
+    query = ("Generate a complete CSR demographics narrative using all available demographic summary records for each treatment arm.")
+    
+    context = retrieve_context(milvus_client, query)
     narrative = generate_narrative(context)
 
     return {
