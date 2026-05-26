@@ -2,6 +2,7 @@ import ollama
 import pandas as pd
 from typing import Any
 from pymilvus import CollectionSchema, DataType, FieldSchema, MilvusClient
+import json
 
 SECTION = "Demographics"
 TABLE_ID = "14.1.1"
@@ -106,18 +107,20 @@ def retrieve_context(
     context_lines = []
     for hit in results[0]:
         entity = hit["entity"]
-        context_lines.append(
-            "\n".join(
-                [
-                    f"Source cell_id: {entity['cell_id']}",
-                    f"Table: {entity['table_id']}",
-                    f"Section: {entity['section']}",
-                    f"Variable: {entity['variable']}",
-                    f"Arm: {entity['arm']}",
-                    f"Statistic type: {entity['statistic_type']}",
-                    f"Verified source data: {entity['text']}",
-                ]
-            )
-        )
+        try:
+            parsed_values = json.loads(entity["value_json"])
+        except:
+            parsed_values = entity["value_json"]
+        structured_record = {
+            "cell_id": entity["cell_id"],
+            "table_id": entity["table_id"],
+            "section": entity["section"],
+            "variable": entity["variable"],
+            "arm": entity["arm"],
+            "statistic type": entity["statistic_type"],
+            "data": parsed_values
+        }
+
+        context_lines.append(json.dumps(structured_record, ensure_ascii=False))
 
     return "\n\n---\n\n".join(context_lines)

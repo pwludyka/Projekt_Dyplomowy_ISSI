@@ -18,36 +18,6 @@ body {
   gap: 2rem;
 }
 
-.chapter {
-  height: 12rem;
-  background: white;
-  color: #222;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  text-align: left;
-  padding: 2rem;
-  text-transform: none;
-  letter-spacing: normal;
-}
-
-.chapter strong {
-  display: block;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.chapter span {
-  display: block;
-  color: #777;
-  font-size: 1.3rem;
-}
-
-.chapter:disabled {
-  color: #999;
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
 section {
   background: white;
   border: 1px solid #ddd;

@@ -125,19 +125,19 @@ function App() {
       </header>
 
       <div className="chapters">
-        <button className="chapter" onClick={() => setPage("demographics")}>
+        <button className="button" onClick={() => setPage("demographics")}>
           <strong>Demographics</strong>
         </button>
 
-        <button className="chapter" disabled>
+        <button className="button" disabled>
           <strong>Safety</strong>
         </button>
 
-        <button className="chapter" disabled>
+        <button className="button" disabled>
           <strong>Efficacy</strong>
         </button>
 
-        <button className="chapter" disabled>
+        <button className="button" disabled>
           <strong>Disposotion</strong>
         </button>
       </div>
