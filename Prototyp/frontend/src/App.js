@@ -10,6 +10,7 @@ function App() {
   const [generating, setGenerating] = useState(false);
   const [tablePreview, setTablePreview] = useState([]);
   const [narrative, setNarrative] = useState("");
+  const [context, setContext] = useState("");
   const [message, setMessage] = useState("");
 
   async function loadAndEmbed() {
@@ -48,6 +49,7 @@ function App() {
         setMessage(data.error);
       } else {
         setNarrative(data.narrative || "");
+        setContext(data.context || "");
       }
     } catch (error) {
       setMessage("Error while generating narrative.");
@@ -102,6 +104,7 @@ function App() {
           </div>
         </section>
 
+
         <section>
           <h2>CSR Narrative</h2>
           
@@ -111,6 +114,10 @@ function App() {
 
           <div className="box narrative">
               {narrative || "Narrative will be available here."}
+          </div>
+
+          <div className="box narrative">
+              {context || "Context will be available here."}
           </div>
         </section>
       </main>

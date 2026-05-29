@@ -90,7 +90,7 @@ def retrieve_context(
         milvus_client: MilvusClient,
         query: str,
         collection_name: str = COLLECTION_NAME,
-        limit: int = 100) -> str:
+        limit: int = 1) -> str:
 
     query_embedding = embed_text(query)
 

@@ -52,14 +52,14 @@ def load_embed_demographics():
 def generate_demographics_narrative():
     global milvus_client
 
-    query = ("Generate a complete CSR demographics narrative using all available demographic summary records for each treatment arm.")
+    query = ("Generate a CSR demographics narrative using all available demographic summary records for each treatment arm.")
     
     context = retrieve_context(milvus_client, query)
     narrative = generate_narrative(context)
 
     return {
-        #"query": query,
-        #"context": context,
+        "query": query,
+        "context": context,
         "narrative": narrative
     }
 
