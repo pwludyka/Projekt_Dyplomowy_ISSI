@@ -45,7 +45,7 @@ def load_embed_demographics():
         "message": "Data loaded, embeddings created",
         "rows_loaded": len(df),
         "summary_records": len(summary_df),
-        "table_preview": df.head(20).to_dict(orient="records")
+        "table_preview": df.head(5).to_dict(orient="records")
     }
 
 @app.post("/api/demographics/generate-narrative")

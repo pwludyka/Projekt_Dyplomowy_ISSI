@@ -56,9 +56,7 @@ def setup_milvus_collection() -> MilvusClient:
     return milvus_client
 
 
-def index_summary_table(
-        milvus_client: MilvusClient,
-        summary_df: pd.DataFrame) -> None:
+def index_summary_table(milvus_client: MilvusClient, summary_df: pd.DataFrame) -> None:
     
     entities: list[dict[str, Any]] = []
     
@@ -86,11 +84,7 @@ def index_summary_table(
 
 
 
-def retrieve_context(
-        milvus_client: MilvusClient,
-        query: str,
-        collection_name: str = COLLECTION_NAME,
-        limit: int = 1) -> str:
+def retrieve_context(milvus_client: MilvusClient, query: str, collection_name: str = COLLECTION_NAME, limit: int = 30) -> str:
 
     query_embedding = embed_text(query)
 
